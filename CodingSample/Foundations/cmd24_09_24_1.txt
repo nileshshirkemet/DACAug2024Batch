@@ -1,0 +1,18 @@
+  228  cd Foundations/Machine/
+  229  ls
+  230  cp condjmptest.s callproctest.s
+  231  vi callproctest.s 
+  232  as callproctest.s 
+  233  ld a.out runtime.o -o program
+  234  ./program 
+  235  vi callproctest.s 
+  236  cp callproctest.s memaddrtest.s
+  237  vi memaddrtest.s 
+  238  as memaddrtest.s 
+  239  ld a.out runtime.o -o program 
+  240  ./program 
+  241  vi memaddrtest.s 
+  242  ls
+  243  cd ..
+  244  ls
+  245  history >cmd24_09_1.txt

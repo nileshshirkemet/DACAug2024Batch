@@ -1,0 +1,36 @@
+  154  mkdir Foundations
+  155  cd Foundations/
+  156  mkdir Machine
+  157  cd Machine/
+  158  uname -m
+  159  wget iitdac.met.edu/shared/asmrt-x64.tar.gz
+  160  tar xf asmrt-x64.tar.gz 
+  161  rm asmrt-x64.tar.gz 
+  162  ls
+  163  vi hello1.s
+  164  ls
+  165  ll
+  166  as hello1.s -o hello1.o
+  167  ll
+  168  ld hello1.o runtime.o -o hello1
+  169  ld hello1.o  -o hello1
+  170  ld hello1.o runtime.o -o hello1
+  171  ll
+  172  ./hello1
+  173  vi hello1.s
+  174  as hello1.s -o hello1.o
+  175  vi hello1.s
+  176  as hello1.s -o hello1.o
+  177  vi hello1.s
+  178  as hello1.s -o hello1.o
+  179  ld hello1.o runtime.o -o hello1
+  180  ./hello1 
+  181  vi hello1.s
+  182  ls
+  183  cd ..
+  184  ls
+  185  cd Foundations/
+  186  ls
+  187  clear
+  188  ls
+  189  history >cmd23_09_24_1.txt

@@ -1,0 +1,38 @@
+    1  clear
+    2  vi dijkstra.s
+    3  ls
+    4  cd Machine/
+    5  mv ../dijkstra.s .
+    6  vi dijkstra.s
+    7  as dijkstra.s -o dijkstra.o
+    8  vi dijkstra.s
+    9  as dijkstra.s -o dijkstra.o
+   10  vi dijkstra.s
+   11  vi console.i 
+   12  vi dijkstra.s
+   13  as dijkstra.s -o dijkstra.o
+   14  vi dijkstra.s
+   15  vi extproctest1.s
+   16  as extproctest1.s 
+   17  ld a.out runtime.o -o program
+   18  ld a.out runtime.o dijkstra.o -o program
+   19  ./program 
+   20  vi extproctest2.c 
+   21  ll *.s
+   22  cc -S extproctest2.c 
+   23  ll *.s
+   24  vi extproctest2.c 
+   25  cc -S extproctest2.c 
+   26  as extproctest2.s
+   27  ld a.out runtime.o dijkstra.o -o program
+   28  ./program 
+   29  ld -shared dijkstra.o -o dijkstra.so
+   30  ll
+   31  vi extproctest3.py
+   32  python extproctest3.py 
+   33  cd ..
+   34  mkdir Control
+   35  cd Control/
+   36  cd ..
+   37  ls
+   38  history >cmd24_09_24_2.txt 

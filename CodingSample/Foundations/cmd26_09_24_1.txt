@@ -1,0 +1,64 @@
+    1  cd Foundations/Functions/
+    2  ls
+    3  ojdump -t ../Machine/a.out 
+    4  objdump -t ../Machine/a.out 
+    5  ls
+    6  ojdump -t program 
+    7  objdump -t program 
+    8  c++filt _Z7Computeiif
+    9  cp callfunctest.cpp funcovldtest.cpp
+   10  vi funcovldtest.cpp 
+   11  c++ funcovldtest.cpp -o program 
+   12  vi funcovldtest.cpp 
+   13  c++ funcovldtest.cpp -o program 
+   14  ./program 
+   15  objdump -t program 
+   16  vi funcovldtest.cpp 
+   17  cp ../Machine/dijkstra.o .
+   18  vi extfunctest.cpp
+   19  c++ extfunctest.cpp -o program
+   20  c++ extfunctest.cpp dijkstra.o -o program
+   21* 
+   22  vi extfunctest.cpp
+   23  ls
+   24  vi extfunctest.cpp
+   25  c++ extfunctest.cpp dijkstra.o -o program
+   26  ./program 
+   27  vi extfunctest.cpp
+   28  vi computation.cpp
+   29  c++ -c computation.cpp 
+   30  ll
+   31  vi computation.h
+   32  objdump -t computation.o
+   33  vi computation.h
+   34  vi computation.cpp 
+   35  c++ -c computation.cpp 
+   36  vi computation.h
+   37  c++ -c computation.cpp 
+   38  vi computation.cpp 
+   39  c++ -c computation.cpp 
+   40  vi computation.h
+   41  vi computation.cpp 
+   42  c++ -c computation.cpp 
+   43  vi computation.h
+   44  c++ -c computation.cpp 
+   45  vi computation.h
+   46  c++ -c computation.cpp 
+   47  vi exceptiontest.cpp
+   48  c++ exceptiontest.cpp -o program 
+   49  c++ exceptiontest.cpp computation.o -o program 
+   50  ./program 
+   51  vi exceptiontest.cpp
+   52  c++ exceptiontest.cpp computation.o -o program 
+   53  ./program 
+   54  vi exceptiontest.cpp
+   55  c++ exceptiontest.cpp computation.o -o program 
+   56  ./program 
+   57  vi computation.cpp
+   58  vi computation.h
+   59  vi computation.cpp
+   60  vi exceptiontest.cpp 
+   61  ls
+   62  cd ..
+   63  ls
+   64  history > cmd26_09_24_1.txt 

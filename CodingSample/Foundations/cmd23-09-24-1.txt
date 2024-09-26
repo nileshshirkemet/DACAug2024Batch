@@ -1,0 +1,189 @@
+    1  /dev/null
+    2  cd ../..
+    3  mkdir PlatformInvokeTest
+    4  cd PlatformInvokeTest/
+    5  wget -qO- iitdac.met.edu/shared/dotnet/legacy.tar.gz | tar x
+    6  ls
+    7  dotnet new console -o DemoApp
+    8  cd DemoApp/
+    9  code .
+   10  dotnet run 10 20
+   11  cp ../NativeLib/libprimes.so bin/Debug/net8.0/
+   12  dotnet run 10 20
+   13  dotnet run 10 100
+   14  code .
+   15  dotnet run 10 100
+   16  dotnet run 10 100 5
+   17  dotnet run 10 100 10
+   18  history > ../../../cmd08-05-2024morning.txt
+   19  ls ../../../
+   20  clear
+   21  ls ~
+   22  cd Nile
+   23  cd ~
+   24  ls
+   25  cd Nilesh/
+   26  ls
+   27  cd Java
+   28  ls
+   29  cd Language-Runtime/
+   30  ls
+   31  cd ..
+   32  ls
+   33  cd Platform-Enterprise/
+   34  ls
+   35  cd ThreadTest/
+   36  ls
+   37  cd demo1
+   38  ls
+   39  code .
+   40  pwd
+   41  javac Program1.java
+   42  java Program
+   43  javap java.lang.runnable
+   44  javap java.lang.Runnable
+   45  clear
+   46  javac Program2.java
+   47  java Program
+   48  javac Program3.java
+   49  java Program 4
+   50  java Program 6
+   51  cd ..
+   52  cd demo2
+   53  ls
+   54  code .
+   55  cd ..
+   56  ls
+   57  exit
+   58  nc localhost 4000
+   59  exit
+   60  nc localhost 4000
+   61  cd Samples/DotNet/Platform-Enterprise/TcpSocketTest/DemoApp2
+   62  dotnet run
+   63  netstat -pnlt
+   64  kill 716
+   65  dotnet run
+   66  netstat -pnlt
+   67  kill 12505
+   68  netstat -pnlt
+   69  dotnet run
+   70  ./bin/Debug/net8.0/DemoApp 
+   71  dotnet run
+   72  ssh dacfaculty@iitdac.met.edu
+   73  exit
+   74  pwd
+   75  cd ..
+   76  dotnet new worker -n DemoApp -o DemoApp2
+   77  cd DemoApp2
+   78  code .
+   79  cp -r ../DemoApp1/Services/ .
+   80  cp -r ../DemoApp1/CitiTek.xml .
+   81  cd ..
+   82  dotnet new console -n DemoApp -o DemoApp3
+   83  nc localhost 4000
+   84  cd DemoApp3
+   85  ls
+   86  code .
+   87  dotnet run localhost
+   88  history >../../../cmd11-05-2024morning.txt
+   89  vi ../../../cmd11-05-2024morning.txt 
+   90  cp -r ../../../../DotNet/ /mnt/d/DAC0324/
+   91  exit
+   92  ssh dacfaculty@iitdac.met.edu
+   93  exit
+   94  ls ~/Samples/Foundations/Methodology/Templates/
+   95  cd AdoNetTest/DemoApp2
+   96  code .
+   97  dotnet run CU202 103 4
+   98  dotnet run CU202 203 4
+   99  dotnet run CU205 201 12
+  100  dotnet run CU204 201 12
+  101  cd ..
+  102  cp -r DemoApp2 DemoApp3
+  103  cd DemoApp3
+  104  code .
+  105  dotnet run CU201 205 15
+  106  dotnet run CU202 209 12
+  107  dotnet run CU202 202 12
+  108  history > ../../../cmd13-05-2024morning.txt 
+  109  vi ../../../cmd13-05-2024morning.txt 
+  110  cp -r ../../../../DotNet/ /mnt/d/DAC0324/
+  111  pwd
+  112  cd Samples/DotNet/Platform-Enterprise/GrpcServiceTest/ServerApp/
+  113  dotnet run
+  114  history > ../../../cmd19-05-2024Server.txt
+  115  exit
+  116  ls
+  117  cd Samples/
+  118  ld
+  119  tree
+  120  dir
+  121  ls
+  122  dotnet --version
+  123  java --version 
+  124  mkdir Old-Data
+  125  mv -r C_Prep/ Old-Data/
+  126  mv C_Prep/ Old-Data/
+  127  ls
+  128  mv Temp/ Old-Data/
+  129  mv dotnet-sdk-8.0.203-linux-x64.tar.gz/ Old-Data/
+  130  mv Samples/ Old-Data/
+  131  mv Nilesh/ Old-Data/
+  132  ls
+  133  mv Test/ Old-Data/
+  134  vi Old-Data/Test/
+  135  ls Old-Data/Test/
+  136  ls
+  137  mv dotnet-sdk-8.0.203-linux-x64.tar.gz/ Old-Data/
+  138  dotnet --version
+  139  java --version
+  140  mv dotnet-sdk-8.0.203-linux-x64.tar.gz Old-Data/
+  141  ls
+  142  mkdir DACSept24/
+  143  ls
+  144  exit
+  145  ls
+  146  cc
+  147  gcc
+  148  ls
+  149  exit
+  150  clear
+  151  vi ~/.vimrc 
+  152  rm -r ~/.m2/repository/
+  153  exit
+  154  mkdir Foundations
+  155  cd Foundations/
+  156  mkdir Machine
+  157  cd Machine/
+  158  uname -m
+  159  wget iitdac.met.edu/shared/asmrt-x64.tar.gz
+  160  tar xf asmrt-x64.tar.gz 
+  161  rm asmrt-x64.tar.gz 
+  162  ls
+  163  vi hello1.s
+  164  ls
+  165  ll
+  166  as hello1.s -o hello1.o
+  167  ll
+  168  ld hello1.o runtime.o -o hello1
+  169  ld hello1.o  -o hello1
+  170  ld hello1.o runtime.o -o hello1
+  171  ll
+  172  ./hello1
+  173  vi hello1.s
+  174  as hello1.s -o hello1.o
+  175  vi hello1.s
+  176  as hello1.s -o hello1.o
+  177  vi hello1.s
+  178  as hello1.s -o hello1.o
+  179  ld hello1.o runtime.o -o hello1
+  180  ./hello1 
+  181  vi hello1.s
+  182  ls
+  183  cd ..
+  184  ls
+  185  cd Foundations/
+  186  ls
+  187  clear
+  188  ls
+  189  history >cmd23-09-24-1.txt

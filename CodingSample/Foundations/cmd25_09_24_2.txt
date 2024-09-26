@@ -1,0 +1,36 @@
+    1  ls
+    2  cd Control/
+    3  ls
+    4  vi whiletest.cpp
+    5  c++ whiletest.cpp -o program 
+    6  ./program 
+    7  vi whiletest.cpp
+    8  vi fortest.cpp
+    9  c++ fortest.cpp -o program 
+   10  ./program 
+   11  vi fortest.cpp
+   12  c++ fortest.cpp -o program 
+   13  ./program 
+   14  vi fortest.cpp
+   15  vi arraytypetest.cpp
+   16  ulimit -s
+   17  vi arraytypetest.cpp
+   18  c++ arraytypetest.cpp -o program 
+   19  ./program 
+   20  vi arraytypetest.cpp
+   21  cd ..
+   22  mkdir Functions
+   23  cd Functions/
+   24  vi callfunctest.cpp
+   25  c++ callfunctest.cpp -o program
+   26  ./program 
+   27  vi callfunctest.cpp
+   28  c++ callfunctest.cpp -o program
+   29  vi callfunctest.cpp
+   30  c++ callfunctest.cpp -o program
+   31  vi callfunctest.cpp
+   32  c++ callfunctest.cpp -o program
+   33  vi callfunctest.cpp
+   34  cd ..
+   35  ls
+   36  history >cmd25_09_24_2.txt 

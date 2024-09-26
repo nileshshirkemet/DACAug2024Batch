@@ -1,0 +1,16 @@
+   68  clear
+   69  vi pointertest.cpp
+   70  cd Foundations/Functions/
+   71  mv ../../pointertest.cpp .
+   72  c++ pointertest.cpp -o program 
+   73  ./program 
+   74  vi pointertest.cpp
+   75  c++ pointertest.cpp -o program 
+   76  ./program 
+   77  vi pointertest.cpp
+   78  c++ pointertest.cpp -o program 
+   79  ./program 
+   80  vi pointertest.cpp
+   81  cd ..
+   82  ls
+   83  history >cmd26_09_24_2.txt 

@@ -1,0 +1,29 @@
+    1  clear
+    2  cd Control/
+    3  ls
+    4  vi datatypetest.cpp
+    5  c++ datatypetest.cpp -o program
+    6  ll
+    7  ./program 
+    8  vi datatypetest.cpp
+    9  c++ datatypetest.cpp -o program
+   10  ./program 
+   11  vi datatypetest.cpp
+   12  cp datatypetest.cpp ifelsetest.cpp
+   13  vi ifelsetest.cpp 
+   14  c++ ifelsetest.cpp -o program
+   15  ./program 
+   16  vi ifelsetest.cpp 
+   17  c++ ifelsetest.cpp -o program
+   18  ./program 
+   19  vi ifelsetest.cpp 
+   20  vi switchtest.cpp
+   21  c++ switchtest.cpp -o program 
+   22  ./program 
+   23  vi switchtest.cpp
+   24  vi dowhiletest.cpp
+   25  c++ dowhiletest.cpp -o program 
+   26  ./program 
+   27  vi dowhiletest.cpp
+   28  cd ..
+   29  history >cmd25_09_24_1.txt

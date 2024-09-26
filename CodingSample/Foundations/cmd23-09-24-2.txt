@@ -1,0 +1,31 @@
+  194  ls Machine/
+  195  cd ..
+  196  cd Foundations/
+  197  ls
+  198  cd Machine/
+  199  ls
+  200  vi registertest.s
+  201  as registertest.s 
+  202  ll
+  203  ld a.out runtime.o -o program
+  204  ll
+  205  ./program 
+  206  ./program
+  207  vi registertest.s
+  208  vi condjmptest.s
+  209  as condjmptest.s 
+  210  ld a.out runtime.o -o program
+  211  ./program 
+  212  vi condjmptest.s
+  213  ./program 
+  214  vi condjmptest.s
+  215  as condjmptest.s 
+  216  ld a.out runtime.o -o program
+  217  ./program 
+  218  vi condjmptest.s
+  219  ./program 
+  220  vi condjmptest.s
+  221  cd ..
+  222  ls
+  223  vi cmd23-09-24-1.txt 
+  224  history >cmd23-09-24-2.txt 
