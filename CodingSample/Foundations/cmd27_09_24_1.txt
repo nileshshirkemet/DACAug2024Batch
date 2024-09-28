@@ -1,0 +1,15 @@
+  230  vi funcptrtest.cpp
+  231  c++ funcptrtest.cpp -o program
+  232  ./program 
+  233  vi funcptrtest.cpp
+  234  cp funcptrtest.cpp funcptrtest_old1.cpp 
+  235  vi funcptrtest.cpp 
+  236  c++ funcptrtest.cpp -o program
+  237  ./program 
+  238  vi funcptrtest.cpp 
+  239  c++ funcptrtest.cpp -o program
+  240  vi funcptrtest.cpp 
+  241  c++ funcptrtest.cpp -o program
+  242  ./program 
+  243  pwd
+  244  history > ../cmd27_09_24_1.txt 

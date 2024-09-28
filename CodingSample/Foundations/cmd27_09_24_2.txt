@@ -1,0 +1,20 @@
+    1  clear
+    2  cd ..
+    3  mkdir Classes
+    4  cd Classes/
+    5  vi banner1.h
+    6  vi classtest1.cpp
+    7  c++ classtest1.cpp -o program
+    8  ./program 
+    9  vi banner1.h
+   10  c++ classtest1.cpp -o program
+   11  ./program 
+   12  vi banner1.h
+   13  c++ classtest1.cpp -o program
+   14  vi classtest1.cpp
+   15  c++ classtest1.cpp -o program
+   16  vi classtest1.cpp
+   17  c++ classtest1.cpp -o program
+   18  ./program 
+   19  vi classtest1.cpp
+   20  history > ../cmd27_09_24_2.txt 
