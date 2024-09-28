@@ -1,29 +1,31 @@
-  228  cd Foundations/Classes/
-  229  vi banner1.h 
-  230  vi classtest1.cpp 
-  231  vi banner1.h 
-  232  c++ classtest1.cpp -o program
-  233  vi banner1.h 
-  234  c++ classtest1.cpp -o program
-  235  ./program 
-  236  vi banner1.h 
-  237  c++ classtest1.cpp -o program
-  238  vi banner1.h 
-  239  c++ classtest1.cpp -o program
-  240  vi banner1.h 
-  241  cp banner1.h banner2.h
-  242  vi banner2.h 
-  243  cp classtest1.cpp classtest2.cpp 
-  244  vi classtest2.cpp 
-  245  c++ classtest2.cpp -o program
-  246  vi classtest2.cpp 
-  247  vi banner2.h 
-  248  c++ classtest2.cpp -o program
-  249  ./program 
-  250  vi banner2.h 
-  251  vi classtest2.cpp 
-  252  c++ classtest2.cpp -o program
-  253  ./program 
-  254  cd ..
-  255  ls
-  256  history >cmd28_09_24_2.txt
+    1  vi interval1.h
+    2  vi staticmemtest.cpp
+    3  c++ staticmemtest.cpp -o program
+    4  vi interval1.h
+    5  c++ staticmemtest.cpp -o program
+    6  ./program 
+    7  vi interval1.h
+    8  vi staticmemtest.cpp
+    9  c++ staticmemtest.cpp -o program
+   10  ./program 
+   11  vi staticmemtest.cpp
+   12  cp staticmemtest.cpp objectptrtest.cpp
+   13  vi objectptrtest.cpp 
+   14  ls
+   15  vi objectptrtest.cpp 
+   16  c++ objectptrtest.cpp -o program
+   17  ./program 
+   18  vi objectptrtest.cpp 
+   19  cp objectptrtest.cpp temp.txt
+   20  vi objectptrtest.cpp 
+   21  c++ objectptrtest.cpp -o program
+   22  ./program 
+   23  vi objectptrtest.cpp 
+   24  c++ objectptrtest.cpp -o program
+   25  vi objectptrtest.cpp 
+   26  c++ objectptrtest.cpp -o program
+   27  ./program 
+   28  vi objectptrtest.cpp 
+   29  cd .. 
+   30  ls
+   31  history >cmd28_09_24_2.txt 
