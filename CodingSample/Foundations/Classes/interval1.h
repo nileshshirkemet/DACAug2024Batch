@@ -3,13 +3,14 @@
 class Interval
 {
 public:
-	Interval(int m = 0, int s = 0)
+	Interval(int m , int s)
 	{
 		id = ++count;
 		min = m + s / 60;
 		sec = s % 60;
 		printf("Interval<%d> activated.\n", id);
 	}
+
 
 	int Time() const
 	{
