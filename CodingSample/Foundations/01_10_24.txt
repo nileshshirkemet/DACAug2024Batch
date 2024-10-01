@@ -1,0 +1,27 @@
+    1  clear
+    2  cd Foundations/Inheritance/
+    3  ld
+    4  ls
+    5  vi derivedclasstest.cpp 
+    6  vi boards.h
+    7  vi boards.cpp
+    8  notepad.exe boards.h
+    9  vi boards.cpp
+   10  c++ -c boards.cpp
+   11  ls
+   12  vi adttest.cpp
+   13  c++ adttest.cpp boards.o -o program1
+   14  ./program1
+   15  vi adttest.cpp
+   16  vi boards.cpp 
+   17  vi boards.h
+   18  vi adttest.cpp
+   19  cp adttest.cpp rttitest.cpp
+   20  vi rttitest.cpp 
+   21  c++ rttitest.cpp boards.o -o program2
+   22  ./program1
+   23  ./program2
+   24  ls
+   25  cd ..
+   26  ls
+   27  history > 01_10_24.txt

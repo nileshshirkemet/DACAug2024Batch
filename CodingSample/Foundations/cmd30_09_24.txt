@@ -1,0 +1,24 @@
+    1  clear
+    2  cd ..
+    3  mkdir Inheritance
+    4  cd Inheritance/
+    5  vi banners1.h
+    6  mv banners1.h banners.h
+    7  vi derivedclasstest.cpp
+    8  c++ derivedclasstest.cpp -o program
+    9  vi derivedclasstest.cpp
+   10  c++ derivedclasstest.cpp -o program
+   11  vi derivedclasstest.cpp
+   12  c++ derivedclasstest.cpp -o program
+   13  ./program 
+   14  vi derivedclasstest.cpp
+   15  vi banners.h
+   16  c++ derivedclasstest.cpp -o program
+   17  ./program 
+   18  vi derivedclasstest.cpp
+   19  c++ derivedclasstest.cpp -o program
+   20  ./program 
+   21  vi derivedclasstest.cpp
+   22  cd ..
+   23  ls
+   24  history > cmd30_09_24.txt
