@@ -1,0 +1,36 @@
+    1  mkdir DotNet
+    2  cd DotNet/
+    3  mkdir Fundamentals
+    4  cd Fundamentals/
+    5  dotnet --version
+    6  uname -m
+    7  vi Hello.il
+    8  ls
+    9  dotnet ilasm -dll Hello.il
+   10  ls
+   11  ll
+   12  dotnet --list-runtimes
+   13  vi Hello.il
+   14  dotnet Hello.dll 
+   15  vi Hello.runtimeconfig.json
+   16  dotnet Hello.dll 
+   17  vi Hello.il
+   18  explorer.exe .
+   19  vi Hello.il
+   20  dotnet ilasm -dll Hello.il
+   21  vi Hello.il
+   22  dotnet ilasm -dll Hello.il
+   23  vi Hello.il
+   24  dotnet ilasm -dll Hello.il
+   25  vi Hello.runtimeconfig.json
+   26  dotnet Hello.dll 
+   27  mkdir ~/Test
+   28  cp * ~/Test
+   29  ssh unipro@linuxarm.km-hussain.xyz
+   30  ls
+   31  vi Hello.il
+   32  cd ~
+   33  ls
+   34  cd DotNet/
+   35  ls
+   36  history >cmd04-10-24evening.txt
