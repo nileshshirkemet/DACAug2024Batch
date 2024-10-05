@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+	</PropertyGroup>
+
+</Project>
+
+<!--
+	The 'dotnet build' command uses settings in Project.csproj file
+	to compile all the C# source files (*.cs) in the current directory
+	and its sub-directories to output following files in bin/<config>/<tfm>
+	(1) Project.dll - assembly representing compiled version of C# files
+	(2) Project.pdb - contains symbols required for debugging Project.dll
+	(3) Project.deps.json - specifies external dependencies of Project.dll
+	(4) Other.dll - any Other assembly referenced by Project.dll
+	following addition files will be included for Exe type project
+	(5) Project.runtimefonfig.json - contains settings required by CLR
+									 for running Project.dll
+	(6) Project[.exe] - platform specific CLR host required for running
+						Project.dll without 'dotnet' command
+-->
+

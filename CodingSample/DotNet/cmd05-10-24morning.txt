@@ -1,0 +1,26 @@
+  486  mkdir Samples
+  487  mv Foundations/ Samples/
+  488  mv DotNet/ Samples/
+  489  cd Samples/DotNet/Fundamentals/
+  490  ls
+  491  mkdir DataTypes
+  492  cd DataTypes/
+  493  mkdir PrimitiveTypeTest
+  494  cd PrimitiveTypeTest/
+  495  mkdir DemoApp
+  496  cd DemoApp/
+  497  vi Program.cs
+  498  vi DemoApp.csproj
+  499  dotnet build
+  500  ls
+  501  ll bin/Debug/net8.0/
+  502  dotnet bin/Debug/net8.0/DemoApp.dll 
+  503  ./bin/Debug/net8.0/DemoApp 
+  504  vi Program.cs 
+  505  vi DemoApp.csproj 
+  506  dotnet run
+  507  code .
+  508  dotnet run Jack Jill
+  509  dotnet run Jack
+  510  pwd
+  511  history > ../../../../cmd05-10-24morning.txt 
