@@ -1,0 +1,13 @@
+    1  cd Fundamentals/
+    2  ls
+    3  mkdir Inheritance
+    4  cd Inheritance/
+    5  mkdir ClassTypeTest
+    6  cd ClassTypeTest/
+    7  mkdir DemoApp1
+    8  cd DemoApp1/
+    9  cp ../../../DataTypes/PrimitiveTypeTest/DemoApp/DemoApp.csproj .
+   10  code .
+   11  dotnet run
+   12  pwd
+   13  history > cmd07-10-24morning.txt 

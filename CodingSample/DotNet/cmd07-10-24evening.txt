@@ -1,0 +1,14 @@
+    1  cd DotNet/Fundamentals/Inheritance/ClassTypeTest/DemoApp1/
+    2  dotnet run
+    3  cd ..
+    4  dotnet new console -n DemoApp -o DemoApp2
+    5  ls
+    6  cd DemoApp2/
+    7  ls
+    8  code .
+    9  dotnet run
+   10  dotnet ildasm bin/Debug/net8.0/DemoApp.dll > DemoApp.il
+   11  dotnet run
+   12  cd ..
+   13  ls
+   14  history >cmd07-10-24evening.txt
