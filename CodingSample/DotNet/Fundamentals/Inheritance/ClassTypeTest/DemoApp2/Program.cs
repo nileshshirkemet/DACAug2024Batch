@@ -21,11 +21,14 @@ Console.WriteLine("------------------------------------");
 Console.WriteLine("a is equal to b: {0}", Equals(a, b));
 Console.WriteLine("a is equal to c: {0}", Equals(a, c));
 Console.WriteLine("d is equal to b: {0}", Equals(d, b));
+Console.WriteLine("------------------------------------");
+Plot e = new Plot { Length = 40.75, Breadth = 36.25 }; //using instance initializer 
+Print("Plot e", e); //auto-boxing of value type(Plot) to compatible reference type(object)
 
 
 //Print is local function of Main method,
 //such functions cannot be overloaded
-void Print(string label, Interval info)
+void Print(string label, object info)
 {
     Console.WriteLine("{0} = {1}", label, info);
 }
