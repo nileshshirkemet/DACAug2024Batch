@@ -1,0 +1,14 @@
+  541  history >cmd08-10-24evening.txt 
+  542  clear
+  543  cd Samples/DotNet/Fundamentals/Inheritance/InterfaceTypeTest/
+  544  ls
+  545  code .
+  546  cd DemoApp1/
+  547  dotnet run
+  548  dotnet run 3000
+  549  dotnet run 18000
+  550  dotnet run 7OOO
+  551  cd ..
+  552  ls
+  553  history cmd09-10-24morning.txt 
+  554  history >cmd09-10-24morning.txt 
