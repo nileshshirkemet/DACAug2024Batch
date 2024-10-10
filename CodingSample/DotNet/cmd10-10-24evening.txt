@@ -1,0 +1,29 @@
+    1  ls
+    2  mkdir Generics
+    3  cd Generics/
+    4  mkdir TypeParamTest
+    5  cd TypeParamTest/
+    6  dotnet new console -n DemoApp -o DemoApp1
+    7  cd DemoApp1/
+    8  code .
+    9  dotnet run 23
+   10  dotnet run 32
+   11  dotnet run 4.5
+   12  dotnet run
+   13  dotnet run 23
+   14  dotnet run 32
+   15  dotnet run 23
+   16  dotnet run 32
+   17  dotnet run 23
+   18  dotnet run 32
+   19  dotnet ildasm bin/Debug/net8.0/DemoApp.dll > DemoApp.il
+   20  dotnet run 23
+   21  dotnet run 32
+   22  dotnet ildasm bin/Debug/net8.0/DemoApp.dll > DemoApp.il
+   23  cp ../../../Inheritance/ClassTypeTest/DemoApp2/Interval.cs .
+   24  dotnet run
+   25  cd ..
+   26  ls DemoApp1/
+   27  cd ..
+   28  ls
+   29  history >cmd10-10-24evening.txt 

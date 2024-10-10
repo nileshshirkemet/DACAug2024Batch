@@ -1,0 +1,17 @@
+    1  cd Fundamentals/Inheritance/InterfaceTypeTest/
+    2  ls
+    3  dotnet new console -n DemoApp -o DemoApp2
+    4  cd DemoApp2/
+    5  code .
+    6  dotnet run Jill 120
+    7  dotnet run Jill 1.20
+    8  dotnet run Jill 10
+    9  dotnet run John 120
+   10  dotnet run Jack 5
+   11  dotnet run Jim 60
+   12  dotnet run Jill 10
+   13  dotnet run Jack 5
+   14  dotnet run Jim 60
+   15  dotnet run Jill 10
+   16  dotnet run Jim 60
+   17  history > ../../../../cmd10-10-24morning.txt 
