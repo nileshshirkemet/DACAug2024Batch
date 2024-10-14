@@ -1,0 +1,46 @@
+    1  cd Fundamentals/
+    2  ls
+    3  mkdir Runtime
+    4  cd Runtime/
+    5  mkdir ReflectionTest
+    6  cd ReflectionTest/
+    7  dotnet new classlib -o BankFinLib
+    8  cd BankFinLib/
+    9  wget iitdac.met.edu/shared/dotnet/Finance.tar.gz
+   10  tar xf Finance.tar.gz 
+   11  rm Finance.tar.gz 
+   12  code .
+   13  dotnet pack
+   14  ls bin/Release/
+   15  cd ..
+   16  dotnet new console -n DemoApp -o DemoApp1
+   17  cd DemoApp1/
+   18  code .
+   19  dotnet restore -s ../BankFinLib/bin/Release/
+   20  dotnet build
+   21  ls bin/Debug/net8.0/
+   22  dotnet run 600000 EducationLoan
+   23  dotnet run 600000 PersonalLoan
+   24  dotnet run 600000 HomeLoan
+   25  dotnet run 600000 CarLoan
+   26  dotnet run 600000 EducationLoan
+   27  dotnet run 600000 HomeLoan
+   28  dotnet run 600000 CarLoan
+   29  ls bin/Debug/net8.0/*.dll
+   30  ll bin/Debug/net8.0/*.dll
+   31  dotnet run 600000 HomeLoan
+   32  dotnet run 600000 EducationLoan Common
+   33  dotnet run 600000 EducationLoan Scholar
+   34  dotnet run 600000 PersonalLoan Common
+   35  dotnet run 600000 PersonalLoan Employee
+   36  dotnet run 6000000 HomeLoan Common
+   37  dotnet run 6000000 HomeLoan Woman
+   38  dotnet run 6000000 HomeLoan Welfare
+   39  dotnet run 6000000 HomeLoan Solidier
+   40  cd ..
+   41  ls
+   42  cd ..
+   43  ls
+   44  cd ..
+   45  ls
+   46  history >cmd14-10-24evening.txt 
