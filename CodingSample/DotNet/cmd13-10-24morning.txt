@@ -1,0 +1,15 @@
+    1  vi Foundations/Functions/funcptrtest.cpp 
+    2  vi Foundations/Functions/funcptrtest_old1.cpp 
+    3  vi Foundations/Functions/funcptrtest.cpp 
+    4  cd DotNet/Fundamentals/
+    5  ls
+    6  mkdir Functional
+    7  cd Functional/
+    8  mkdir DelegateTest
+    9  cd DelegateTest/
+   10  dotnet new console -n DemoApp
+   11  cd DemoApp/
+   12  code .
+   13  dotnet run 50000 15
+   14  dotnet run 200000 5
+   15  history > ../../../../cmd13-10-24morning.txt 
