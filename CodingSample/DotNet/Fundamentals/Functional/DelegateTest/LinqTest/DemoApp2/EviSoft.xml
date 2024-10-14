@@ -1,0 +1,42 @@
+<Consultants>
+    <Consultant Id="Carter">
+        <Education>Graduate</Education>
+        <Country>USA</Country>
+        <Skill>Java</Skill>
+    </Consultant>
+    <Consultant Id="Diana">
+        <Education>Graduate</Education>
+        <Country>UK</Country>
+        <Skill>Python</Skill>
+    </Consultant>
+    <Consultant Id="Allen">
+        <Education>Graduate</Education>
+        <Country>USA</Country>
+        <Skill>.NET</Skill>
+    </Consultant>
+    <Consultant Id="Fiona">
+        <Education>Masters</Education>
+        <Country>Australia</Country>
+        <Skill>Java</Skill>
+    </Consultant>
+    <Consultant Id="Ellison">
+        <Education>Masters</Education>
+        <Country>Canada</Country>
+        <Skill>.NET</Skill>
+    </Consultant>
+    <Consultant Id="Helena">
+        <Education>Masters</Education>
+        <Country>Canada</Country>
+        <Skill>.NET</Skill>
+    </Consultant>
+    <Consultant Id="George">
+        <Education>Doctorate</Education>
+        <Country>USA</Country>
+        <Skill>Python</Skill>
+    </Consultant>
+    <Consultant Id="Bella">
+        <Education>Masters</Education>
+        <Country>UK</Country>
+        <Skill>Java</Skill>
+    </Consultant>
+</Consultants>
