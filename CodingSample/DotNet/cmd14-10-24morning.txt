@@ -1,0 +1,49 @@
+    1  vi Foundations/Functions/funcptrtest.cpp 
+    2  vi Foundations/Functions/funcptrtest_old1.cpp 
+    3  vi Foundations/Functions/funcptrtest.cpp 
+    4  cd DotNet/Fundamentals/
+    5  ls
+    6  mkdir Functional
+    7  cd Functional/
+    8  mkdir DelegateTest
+    9  cd DelegateTest/
+   10  dotnet new console -n DemoApp
+   11  cd DemoApp/
+   12  code .
+   13  dotnet run 50000 15
+   14  dotnet run 200000 5
+   15  history > ../../../../cmd13-10-24morning.txt 
+   16  vi ../../../../cmd13-10-24morning.txt 
+   17  cd ../../../../../
+   18  cp -r DotNet /mnt/d/DAC0824/
+   19  clear
+   20  cd DotNet/Fundamentals/Functional/
+   21  ls
+   22  mkdir LinqTest
+   23  cd LinqTest/
+   24  dotnet new console -n DemoApp -o DemoApp1
+   25  cd DemoApp1/
+   26  code .
+   27  dotnet run items
+   28  dotnet run items samsung
+   29  dotnet run items intel
+   30  dotnet run items seagate
+   31  dotnet run items samsung
+   32  dotnet run items logitech
+   33  dotnet run customers 0
+   34  dotnet run customers 50000
+   35  dotnet run customers 75000
+   36  dotnet run customers 100000
+   37  cd ..
+   38  dotnet new console -n DemoApp -o DemoApp2
+   39  cd DemoApp2
+   40  wget iitdac.met.edu/shared/dotnet/EviSoft.xml
+   41  code .
+   42  dotnet run
+   43  dotnet run Language Java
+   44  dotnet run Degree Graduate
+   45  dotnet run Degree Masters
+   46  dotnet run Name Diana
+   47  dotnet run
+   48  dotnet run Language Python
+   49  history > ../../../../cmd14-10-24morning.txt 
