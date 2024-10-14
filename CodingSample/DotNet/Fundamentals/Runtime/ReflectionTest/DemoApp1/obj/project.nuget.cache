@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "n25JRy0aYoEryiO3vYUgk1B3jAVCQEWywfi3z2tkE3UPJ3towFNb0BXlNS4S95NeC/1dj9LduSLmsF6b1d68TA==",
+  "success": true,
+  "projectFilePath": "/home/cdac/Samples/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp1/DemoApp.csproj",
+  "expectedPackageFiles": [
+    "/home/cdac/.nuget/packages/met.bankfin/1.0.0/met.bankfin.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

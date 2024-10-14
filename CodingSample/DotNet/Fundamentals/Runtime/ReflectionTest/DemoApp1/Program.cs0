@@ -1,0 +1,22 @@
+﻿using Finance;
+
+decimal p = decimal.Parse(args[0]);
+int m = 10;
+for(int n = 1; n <= m; ++n)
+{
+    float r = CommonRate(args[1], p, n);
+    decimal emi = Loans.GetMonthlyInstallment(p, n, r);
+    Console.WriteLine("{0, -8}{1, 20:0.00}", n, emi);
+}
+
+static float CommonRate(string policy, decimal amount, int period)
+{
+    //pattern matching switch
+    return policy switch
+    {
+        "EducationLoan" => new EducationLoan().Common(amount, period),
+        "PersonalLoan" => new PersonalLoan().Common(amount, period),
+        "HomeLoan" => new HomeLoan().Common(amount, period),
+        _ => throw new ArgumentException("Invalid loan policy")
+    };
+}

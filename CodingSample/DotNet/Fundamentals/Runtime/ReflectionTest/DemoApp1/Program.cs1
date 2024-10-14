@@ -1,0 +1,15 @@
+﻿using Finance;
+
+decimal p = decimal.Parse(args[0]);
+Type t = Type.GetType($"Finance.{args[1]},BankFinLib", true);
+//strict type checking is disabled for a variable declared
+//with 'dynamic' keyword
+dynamic policy = Activator.CreateInstance(t); //dynamic activation
+int m = 10;
+for(int n = 1; n <= m; ++n)
+{
+    float r = policy.Common(p, n); //generate runtime binder based call-site (duck typing)
+    decimal emi = Loans.GetMonthlyInstallment(p, n, r);
+    Console.WriteLine("{0, -8}{1, 20:0.00}", n, emi);
+}
+
