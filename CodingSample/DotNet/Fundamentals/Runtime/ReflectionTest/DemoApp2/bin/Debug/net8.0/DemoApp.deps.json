@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DemoApp/1.0.0": {
+        "dependencies": {
+          "Met.BankFin": "2.0.0"
+        },
+        "runtime": {
+          "DemoApp.dll": {}
+        }
+      },
+      "Met.BankFin/2.0.0": {
+        "runtime": {
+          "lib/net8.0/BankFinLib.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DemoApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Met.BankFin/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Eo3Fc2ZgqonJEeaLGC1uJEBbwmzw9Qnfvxn8SgtUSCTyTWvBwbF7+5K6zqf+N9GQNfOc8xYRTMDjPwwu78UrBA==",
+      "path": "met.bankfin/2.0.0",
+      "hashPath": "met.bankfin.2.0.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Met.BankFin/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/BankFinLib.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/BankFinLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Met.BankFin/2.0.0": {
+      "sha512": "Eo3Fc2ZgqonJEeaLGC1uJEBbwmzw9Qnfvxn8SgtUSCTyTWvBwbF7+5K6zqf+N9GQNfOc8xYRTMDjPwwu78UrBA==",
+      "type": "package",
+      "path": "met.bankfin/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/BankFinLib.dll",
+        "met.bankfin.2.0.0.nupkg.sha512",
+        "met.bankfin.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Met.BankFin >= 2.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/cdac/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/cdac/Samples/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/DemoApp.csproj",
+      "projectName": "DemoApp",
+      "projectPath": "/home/cdac/Samples/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/DemoApp.csproj",
+      "packagesPath": "/home/cdac/.nuget/packages/",
+      "outputPath": "/home/cdac/Samples/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp2/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/cdac/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Met.BankFin": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/home/cdac/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
