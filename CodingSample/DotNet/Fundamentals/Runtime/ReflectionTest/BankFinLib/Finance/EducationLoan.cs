@@ -2,6 +2,7 @@ namespace Finance;
 
 public class EducationLoan 
 {
+	[MaxDuration]
 	public float Common(decimal amount, int period)
 	{
 		return 6;

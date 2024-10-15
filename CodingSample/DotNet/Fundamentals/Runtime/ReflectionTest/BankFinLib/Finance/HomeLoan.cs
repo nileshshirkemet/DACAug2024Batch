@@ -6,6 +6,7 @@ public class HomeLoan
 
 	public float Woman(decimal amount, int period) => Common(amount, period) - 1;
 	
+	[MaxDuration(Limit = 12)]
 	public float Welfare(decimal amount, int period) => 0.5f * Common(amount, period);
 }
 
