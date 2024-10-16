@@ -34,7 +34,25 @@ class Program
 
         public void Credit(int amount)
         {
-            Balance = Machine.DoWork(amount, Balance, 1);
+            lock(this)
+            {
+                Balance = Machine.DoWork(amount, Balance, 1);
+                //wakeup any thread that is waiting on the
+                //monitor of this object
+                Monitor.Pulse(this);
+            }
+        }
+
+        public bool DebitAfterCredit(int amount)
+        {
+            lock(this)
+            {
+                //release the ownership of the monitor of this object,
+                //wait for this monitor to be pulsed and then resume
+                //after reaquring the monitor
+                Monitor.Wait(this);
+                return Debit(amount);
+            }
         }
     }
 

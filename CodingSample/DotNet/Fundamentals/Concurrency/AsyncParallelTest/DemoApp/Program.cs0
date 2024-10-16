@@ -1,0 +1,41 @@
+﻿using System.Diagnostics;
+
+namespace DemoApp;
+
+class Program
+{
+
+    class Computation
+    {
+        private Stopwatch clock = new();
+
+        public long Compute(int first, int count)
+        {
+            clock.Start();
+            return Enumerable.Range(first, count)
+                .Select(Machine.DoWork)
+                .Sum();
+        }
+
+        public double Time()
+        {
+            clock.Stop();
+            return clock.Elapsed.TotalSeconds;
+        }
+    }
+
+    static void HandleJob(int jid)
+    {
+        Console.Write("Computing...");
+        var c = new Computation();
+        var r = c.Compute(1, jid);
+        Console.WriteLine("Done.");
+        Console.WriteLine("Result = {0}, computed in {1:0.000} seconds.", r, c.Time());
+    }
+
+    static void Main(string[] args)
+    {
+       int n = int.Parse(args[0]);
+       HandleJob(n);
+    }
+}
