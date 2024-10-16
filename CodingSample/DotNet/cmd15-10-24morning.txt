@@ -1,0 +1,44 @@
+    1  clear
+    2  cd Fundamentals/Runtime/
+    3  ls
+    4  cd ReflectionTest/
+    5  ls
+    6  cd BankFinLib/
+    7  code .
+    8  dotnet build
+    9  dotnet ildasm bin/Debug/net8.0/BankFinLib.dll > BankFinLib.il
+   10  dotnet pack
+   11  ls bin/Release/
+   12  cd ..
+   13  cp -r DemoApp1/ DemoApp2
+   14  cd DemoApp2/
+   15  code .
+   16  dotnet restore -s ../BankFinLib/bin/Release/
+   17  dotnet build
+   18  dotnet run 600000 EducationLoan Common
+   19  dotnet run 600000 EducationLoan Scholar
+   20  dotnet run 600000 HomeLoan Common
+   21  dotnet run 600000 HomeLoan Welfare
+   22  cd ../..
+   23  ls
+   24  mkdir PlatformInvokeTest
+   25  cd PlatformInvokeTest/
+   26  wget iitdac.met.edu/shared/dotnet/legacy.tar.gz
+   27  tar xf legacy.tar.gz 
+   28  rm legacy.tar.gz 
+   29  ls
+   30  ls NativeLib/
+   31  vi NativeLib/primes.h
+   32  explorer.exe mapping.pdf 
+   33  dotnet new console -n DempApp
+   34  rm -r DempApp/
+   35  dotnet new console -n DemoApp
+   36  cd DemoApp/
+   37  dotnet build
+   38  cp ../NativeLib/libprimes.so bin/Debug/net8.0/
+   39  code .
+   40  vi ../NativeLib/primes.h
+   41  dotnet run 10 20
+   42  dotnet run 10 100
+   43  dotnet run 100 10000
+   44  history > ../../../../cmd15-10-24morning.txt 

@@ -1,0 +1,17 @@
+    1  cd PlatformInvokeTest/DemoApp/
+    2  code .
+    3  vi ../NativeLib/primes.h
+    4  dotnet run 10 100
+    5  dotnet run 10 100 5
+    6  dotnet run 100 1000
+    7  dotnet run 100 1000 25
+    8  dotnet run 10 100 5
+    9  dotnet run 100 1000 25
+   10  dotnet run 10 100 5
+   11  dotnet run 100 1000 25
+   12  dotnet run 10 100 5
+   13  dotnet run 100 1000 25
+   14  dotnet run 10 100 5
+   15  dotnet run 100 1000 25
+   16  cd ..
+   17  history >cmd15-10-24evening.txt 

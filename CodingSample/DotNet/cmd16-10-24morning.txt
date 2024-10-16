@@ -1,0 +1,26 @@
+    1  clear
+    2  cd Fundamentals/
+    3  ls
+    4  mkdir Concurrency
+    5  cd Concurrency/
+    6  mkdir ThreadingTest
+    7  cd ThreadingTest/
+    8  dotnet new console -n DemoApp -o DemoApp1 --use-program-main
+    9  cd DemoApp1/
+   10  code .
+   11  dotnet run
+   12  dotnet run 3
+   13  dotnet run
+   14  dotnet run 3
+   15  dotnet run
+   16  dotnet run 3
+   17  dotnet run
+   18  dotnet run 4
+   19  dotnet run 6
+   20  cd ..
+   21  dotnet new console -n DemoApp -o DemoApp2 --use-program-main
+   22  cd DemoApp2/
+   23  cp ../DemoApp1/Machine.cs .
+   24  code .
+   25  dotnet run
+   26  history > ../../../../cmd16-10-24morning.txt 
