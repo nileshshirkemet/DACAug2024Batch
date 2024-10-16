@@ -1,0 +1,28 @@
+﻿namespace DemoApp;
+
+class Program
+{
+    [ThreadStatic]
+    static string customer;
+
+    static void HandleJob(int jid)
+    {
+        Console.WriteLine("Thread<{0}> has accepted job<{1}> for {2}", Thread.CurrentThread.ManagedThreadId, jid, customer);
+        Machine.DoWork(jid);
+        Console.WriteLine("Thread<{0}> has finished job<{1}> for {2}", Thread.CurrentThread.ManagedThreadId, jid, customer);
+    }
+
+    static void Main(string[] args)
+    {
+        int n = args.Length > 0 ? int.Parse(args[0]) : 1;
+        Thread child = new Thread(() => 
+        {
+            customer = "Jack";
+            HandleJob(n);
+        });
+        child.IsBackground = n > 5;
+        child.Start();
+        customer = "Jill";
+        HandleJob(2);
+    }
+}

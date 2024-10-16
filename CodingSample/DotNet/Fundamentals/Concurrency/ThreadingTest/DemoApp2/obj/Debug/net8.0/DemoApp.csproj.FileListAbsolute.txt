@@ -1,0 +1,14 @@
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/bin/Debug/net8.0/DemoApp
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/bin/Debug/net8.0/DemoApp.deps.json
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/bin/Debug/net8.0/DemoApp.runtimeconfig.json
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/bin/Debug/net8.0/DemoApp.dll
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/bin/Debug/net8.0/DemoApp.pdb
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/obj/Debug/net8.0/DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/obj/Debug/net8.0/DemoApp.AssemblyInfoInputs.cache
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/obj/Debug/net8.0/DemoApp.AssemblyInfo.cs
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/obj/Debug/net8.0/DemoApp.csproj.CoreCompileInputs.cache
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/obj/Debug/net8.0/DemoApp.dll
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/obj/Debug/net8.0/refint/DemoApp.dll
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/obj/Debug/net8.0/DemoApp.pdb
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/obj/Debug/net8.0/DemoApp.genruntimeconfig.cache
+/home/cdac/Samples/DotNet/Fundamentals/Concurrency/ThreadingTest/DemoApp2/obj/Debug/net8.0/ref/DemoApp.dll
