@@ -1,0 +1,24 @@
+    1  cd ThreadingTest/DemoApp2/
+    2  code .
+    3  cd ../..
+    4  ls
+    5  mkdir AsyncParallelTest
+    6  cd AsyncParallelTest/
+    7  dotnet new console -n DemoApp --use-program-main
+    8  cd DemoApp/
+    9  cp ../../ThreadingTest/DemoApp1/Machine.cs .
+   10  code .
+   11  dotnet run 5
+   12  dotnet run 10
+   13  dotnet run 20
+   14  dotnet run 30
+   15  dotnet run 10
+   16  dotnet run 20
+   17  dotnet run 15
+   18  dotnet run 20
+   19  dotnet run 30
+   20  cd ..
+   21  ls
+   22  cd ..
+   23  ls
+   24  history >cmd16-10-24evening.txt 
