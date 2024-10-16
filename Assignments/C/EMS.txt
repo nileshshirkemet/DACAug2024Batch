@@ -1,0 +1,20 @@
+Employee Management System
+==========================
+1) Store Employee Data required as under
+   a) Emp Id (It is unique)
+   b) Ename
+   c) Sal
+   d) Comm
+   e) Age
+   f) Deptno (Valid Department no (10/20/30/40)
+2) You can allocate the data on Stack and store it
+   by creating Array of Structure Type
+3) Provide following function for supporting usage and  
+   maintenance of application
+   a) PrintEmployee(Emp ID)
+   b) PrintAllEmployee()
+   c) AddNewEmploye()
+   d) GetAnnualSal()  //for one employee
+   e) GetTotalAnnualSal() // Total for all employee
+   
+   
