@@ -1,0 +1,12 @@
+    1  mkdir Enterprise
+    2  cd Enterprise/
+    3  mkdir Networking
+    4  cd Networking/
+    5  mkdir TcpServerTest
+    6  cd TcpServerTest/
+    7  dotnet new console -n DemoApp -o DemoApp1
+    8  cd DemoApp1/
+    9  wget iitdac.met.edu/shared/dotnet/EviTek.store
+   10  code .
+   11  pwd
+   12  history > ../../../../cmd17-10-24morning.txt 
