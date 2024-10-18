@@ -1,0 +1,13 @@
+    1  cd Enterprise/Networking/TcpServerTest/DemoApp2
+    2  code .
+    3  dotnet run 
+    4  cd ../..
+    5  mkdir TcpClientTest
+    6  dotnet new console -n DemoApp -o DemoApp1
+    7  cd DemoApp1/
+    8  code .
+    9  dotnet run cpu 4 localhost
+   10  dotnet run mouse 300 localhost
+   11  dotnet run mouse 30 localhost
+   12  dotnet run hdd 5 localhost
+   13  history > ../../../cmd18-10-24morning.txt 

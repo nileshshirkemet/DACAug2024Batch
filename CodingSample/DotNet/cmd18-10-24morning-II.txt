@@ -1,0 +1,11 @@
+  594  netstat -pnlt
+  595  dotnet run
+  596  nc localhost 4000
+  597  netstat -pnlt
+  598  nc localhost 4000
+  599  netstat -pnlt
+  600  nc localhost 4000
+  601  cd ../DemoApp2
+  602  dotnet run
+  603  pwd
+  604  history > ../../../../cmd18-10-24morning-II.txt 

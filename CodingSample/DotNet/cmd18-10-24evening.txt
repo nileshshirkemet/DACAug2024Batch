@@ -1,0 +1,40 @@
+    1  cd Enterprise/Networking/TcpServerTest/DemoApp2
+    2  code .
+    3  dotnet run 
+    4  cd ../..
+    5  mkdir TcpClientTest
+    6  dotnet new console -n DemoApp -o DemoApp1
+    7  cd DemoApp1/
+    8  code .
+    9  dotnet run cpu 4 localhost
+   10  dotnet run mouse 300 localhost
+   11  dotnet run mouse 30 localhost
+   12  dotnet run hdd 5 localhost
+   13  history > ../../../cmd18-10-24morning.txt 
+   14  vi ../../../cmd18-10-24morning.txt 
+   15  cd ../../../../
+   16  ls
+   17  cd DotNet/
+   18  ls
+   19  cd ..
+   20  cp -r DotNet /mnt/d/DAC0824/
+   21  vi DotNet/cmd18-10-24morning-II.txt 
+   22  cd DotNet/Enterprise/Networking/TcpClientTest/
+   23  ls
+   24  cd ../TcpServerTest/
+   25  ls
+   26  cd DemoApp2
+   27  ls
+   28  cd ../..
+   29  ls
+   30  mv DemoApp1/ TcpClientTest/
+   31  cd TcpClientTest/
+   32  ls
+   33  cp -r DemoApp1/ DemoApp2
+   34  cd DemoApp2/
+   35  code .
+   36  dotnet run ssd 3 iitdac.met.edu
+   37  dotnet run printer 2 iitdac.met.edu
+   38  dotnet run printer 2 met.hussain.in
+   39  cd ..
+   40  history >cmd18-10-24evening.txt
