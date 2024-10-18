@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BwxCjXebEcaUkdbtjCX+S5X3OyPx49bd3rsat7pDZEP2JNaMgPhVdVFkFO0wmY5yHIRvxQFvFJAk+KiatNp9/g==",
+  "dgSpecHash": "QlvW8o2eOUq2mMjUiI7A42FuDlz8jq51BH4AsThb0xEtJ+YN6KiprYb0tadj9bsfCBWubpmE6X+zHCcvVfBBFw==",
   "success": true,
-  "projectFilePath": "/home/cdac/Samples/DotNet/Enterprise/Networking/TcpServerTest/DemoApp1/DemoApp.csproj",
+  "projectFilePath": "/home/cdac/Samples/DotNet/Enterprise/Networking/DemoApp1/DemoApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

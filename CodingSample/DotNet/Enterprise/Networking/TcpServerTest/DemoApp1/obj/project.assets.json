@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/cdac/Samples/DotNet/Enterprise/Networking/TcpServerTest/DemoApp1/DemoApp.csproj",
+      "projectUniqueName": "/home/cdac/Samples/DotNet/Enterprise/Networking/DemoApp1/DemoApp.csproj",
       "projectName": "DemoApp",
-      "projectPath": "/home/cdac/Samples/DotNet/Enterprise/Networking/TcpServerTest/DemoApp1/DemoApp.csproj",
+      "projectPath": "/home/cdac/Samples/DotNet/Enterprise/Networking/DemoApp1/DemoApp.csproj",
       "packagesPath": "/home/cdac/.nuget/packages/",
-      "outputPath": "/home/cdac/Samples/DotNet/Enterprise/Networking/TcpServerTest/DemoApp1/obj/",
+      "outputPath": "/home/cdac/Samples/DotNet/Enterprise/Networking/DemoApp1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/cdac/.nuget/NuGet/NuGet.Config"
