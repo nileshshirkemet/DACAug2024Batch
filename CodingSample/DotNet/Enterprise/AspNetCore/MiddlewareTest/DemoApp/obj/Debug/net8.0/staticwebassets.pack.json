@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/home/cdac/Samples/DotNet/Enterprise/AspNetCore/MiddlewareTest/DemoApp/wwwroot/input.html",
+      "PackagePath": "staticwebassets/input.html"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.DemoApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.DemoApp.props",
+      "PackagePath": "build\\DemoApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.DemoApp.props",
+      "PackagePath": "buildMultiTargeting\\DemoApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.DemoApp.props",
+      "PackagePath": "buildTransitive\\DemoApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

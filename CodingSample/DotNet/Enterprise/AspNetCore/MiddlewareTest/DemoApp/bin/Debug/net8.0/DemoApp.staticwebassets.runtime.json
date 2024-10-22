@@ -1,0 +1,1 @@
+{"ContentRoots":["/home/cdac/Samples/DotNet/Enterprise/AspNetCore/MiddlewareTest/DemoApp/wwwroot/"],"Root":{"Children":{"input.html":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"input.html"},"Patterns":null}},"Asset":null,"Patterns":[{"ContentRootIndex":0,"Pattern":"**","Depth":0}]}}
