@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/alpine.js",
+      "PackagePath": "staticwebassets/alpine.js"
+    },
+    {
       "Id": "/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },

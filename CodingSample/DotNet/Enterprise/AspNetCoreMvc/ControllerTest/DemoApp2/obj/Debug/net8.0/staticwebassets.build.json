@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y9oBDCVvt5eRR9Kpl6ATLMbRP2SElhURuHQbnnkUim0=",
+  "Hash": "Uj88Ec+m2VP3I6JDKL6r7Tq90zj2J7Wh6XhCsZVoK6E=",
   "Source": "DemoApp",
   "BasePath": "_content/DemoApp",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/alpine.js",
+      "SourceId": "DemoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/",
+      "BasePath": "_content/DemoApp",
+      "RelativePath": "alpine.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/alpine.js"
+    },
     {
       "Identity": "/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/index.html",
       "SourceId": "DemoApp",
