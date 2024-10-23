@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "Y9oBDCVvt5eRR9Kpl6ATLMbRP2SElhURuHQbnnkUim0=",
+  "Source": "DemoApp",
+  "BasePath": "_content/DemoApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DemoApp/wwwroot",
+      "Source": "DemoApp",
+      "ContentRoot": "/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/",
+      "BasePath": "_content/DemoApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/index.html",
+      "SourceId": "DemoApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/",
+      "BasePath": "_content/DemoApp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}
