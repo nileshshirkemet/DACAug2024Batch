@@ -1,0 +1,11 @@
+    1  cd Samples/DotNet/Enterprise/AspNetCore/
+    2  ls
+    3  mkdir MiddlewareTest
+    4  cd MiddlewareTest/
+    5  cp -r ../EndpointTest/DemoApp1 DemoApp
+    6  cd DemoApp/
+    7  code .
+    8  dotnet run
+    9  code .
+   10  dotnet run
+   11  history > ../../../../cmd22-10-24morning.txt 

@@ -1,0 +1,20 @@
+    1  clear
+    2  cd Enterprise/AspNetCoreMvc/ControllerTest/
+    3  cd DemoApp2
+    4  code .
+    5  wget iitdac.met.edu/shared/web/alpine.js -P wwwroot/
+    6  dotnet run
+    7  cd ../..
+    8  ls
+    9  mkdir RazorPagesTest
+   10  cd RazorPagesTest/
+   11  dotnet new web -n DemoApp -o DemoApp1
+   12  cd DemoApp1/
+   13  cp -r ../../../AspNetCore/EndpointTest/DemoApp2/Services/ .
+   14  code .
+   15  dotnet run
+   16  cd ..
+   17  ls
+   18  cd ..
+   19  ls
+   20  history >cmd23-10-24evening.txt 

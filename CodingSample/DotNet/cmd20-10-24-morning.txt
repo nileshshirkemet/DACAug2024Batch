@@ -1,0 +1,51 @@
+    1  clear
+    2  cd Enterprise/AdoNet/ExecSqlTest/DemoApp2/
+    3  code .
+    4  dotnet run CU204 202 9
+    5  dotnet run CU203 208 15
+    6  dotnet run CU203 203 15
+    7  cd ..
+    8  mkdir StoredProcTest
+    9  cd StoredProcTest/
+   10  dotnet new console -n DemoApp
+   11  cd DemoApp/
+   12  wget iitdac.met.edu/shared/data/shopms.sql
+   13  code .
+   14  dotnet add package Microsoft.Data.SqlClient
+   15  dotnet run CU201 202 13
+   16  dotnet run CU205 205 15
+   17  cd ..\
+   18  ls
+   19  cd ..
+   20  ls
+   21  vi cmd18-10-24morning
+   22  clear
+   23  cd Enterprise/
+   24  ls
+   25  mkdir EFCore
+   26  cd EFCore/
+   27  mkdir CodeFirstTest
+   28  cd CodeFirstTest/
+   29  dotnet new console -n DemoApp
+   30  cd DemoApp/
+   31  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   32  code .
+   33  ls
+   34  dotnet run
+   35  ls
+   36  sqlite3 site.db 
+   37  dotnet run Jack
+   38  dotnet run Jill
+   39  dotnet run Jack
+   40  dotnet run
+   41  dotnet run Jim
+   42  dotnet run
+   43  sqlite3 site.db 
+   44  cd ..
+   45  ls
+   46  cd ..
+   47  cd EFCore/
+   48  cd ..
+   49  vi cmd20-10-24morning
+   50  pwd
+   51  history>cmd20-10-24-morning.txt

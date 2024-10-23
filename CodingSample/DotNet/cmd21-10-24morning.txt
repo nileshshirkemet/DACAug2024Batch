@@ -1,0 +1,32 @@
+    1  cd Samples/DotNet/Enterprise/EFCore/
+    2  ls
+    3  mkdir DatabaseFirstTest
+    4  cd DatabaseFirstTest/
+    5  dotnet new console -n DemoApp -o DemoApp1
+    6  cd DemoApp1/
+    7  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+    8  code .
+    9  dotnet run
+   10  dotnet run CU201
+   11  dotnet run CU202
+   12  dotnet run CU203
+   13  dotnet run CU204
+   14  dotnet run CU205
+   15  cd ..
+   16  ls
+   17  dotnet new classlib -n Sales -o SalesLib
+   18  cd SalesLib/
+   19  code .
+   20  dotnet build
+   21  cd ..
+   22  dotnet new console -n DemoApp -o DemoApp2
+   23  cd DemoApp2
+   24  dotnet add reference ../SalesLib/
+   25  code .
+   26  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   27  dotnet run
+   28  dotnet run 201
+   29  dotnet run 203
+   30  dotnet run 205
+   31  dotnet run 206
+   32  history > ../../../../cmd21-10-24morning.txt

@@ -1,0 +1,16 @@
+    1  cd Enterprise/AspNetCoreMvc/ControllerTest/DemoApp1/
+    2  code .
+    3  dotnet run
+    4  cd ..
+    5  dotnet new web -n DemoApp -o DemoApp2
+    6  cd DemoApp2/
+    7  cp -r ../../../EFCore/CodeFirstTest/DemoApp/Tourism/ .
+    8  cp -r ../../../EFCore/CodeFirstTest/DemoApp/site.db .
+    9  code .
+   10  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   11  dotnet run
+   12  rm site.db 
+   13  dotnet run
+   14  ls
+   15  cp -r ../../../EFCore/CodeFirstTest/DemoApp/site.db .
+   16  history > ../../../../cmd23-10-24morning.txt 

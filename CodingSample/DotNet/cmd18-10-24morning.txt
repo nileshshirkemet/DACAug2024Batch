@@ -1,0 +1,39 @@
+    1  clear
+    2  cd Enterprise/
+    3  ls
+    4  mkdir AdoNet
+    5  cd AdoNet/
+    6  ls
+    7  wget iitdac.met.edu/shared/dotnet/dbprov.txt
+    8  mkdir ExecSqlTest
+    9  cd ExecSqlTest/
+   10  dotnet new console -n DemoApp -o DemoApp1
+   11  cd DemoApp1/
+   12  ls
+   13  wget iitdac.met.edu/shared/date/shop.db
+   14  wget iitdac.met.edu/shared/data/shop.db
+   15  ls
+   16  sqlite3 shop.db 
+   17  dotnet add package Microsoft.Data.Sqlite
+   18  vi ../../dbprov.txt 
+   19  code .
+   20  vi ../../dbprov.txt 
+   21  dotnet run
+   22  sqlite3 shop.db 
+   23  dotnet run
+   24  dotnet run 104
+   25  dotnet run
+   26  dotnet run 201
+   27  cd ..
+   28  ls
+   29  dotnet new console -n DemoApp -o DemoApp2
+   30  sqlite3 DemoApp1/shop.db 
+   31  cd DemoApp2
+   32  ls
+   33  dotnet add package Microsoft.Data.SqlClient
+   34  code .
+   35  dotnet run
+   36  cd ..
+   37  ls
+   38  cd ..
+   39  history >cmd18-10-24morning.txt
