@@ -22,6 +22,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGVsbG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvc/ControllerTest/DemoApp1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvc/ControllerTest/DemoApp1/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/cdac/Samples/DotNet/Enterprise/AspNetCoreMvc/ControllerTest/DemoApp1/Views/Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2VsY29tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
