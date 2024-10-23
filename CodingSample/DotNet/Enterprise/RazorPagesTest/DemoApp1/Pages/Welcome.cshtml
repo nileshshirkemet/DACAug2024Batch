@@ -1,0 +1,18 @@
+@page
+@inject DemoApp.Services.ICounter counting
+@{
+    string person = Request.Query["user"];
+    if(person == null || person.Length < 4)
+        person = "Visitor";
+}
+<html>
+    <head>
+        <title>DemoApp</title>
+    </head>
+    <body>
+        <h1>Welcome @person</h1>
+        <p>
+            <b>Number of Greetings: </b>@counting.CountNext("User")
+        </p>
+    </body>
+</html>
