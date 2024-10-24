@@ -1,4 +1,5 @@
 @page
+@model DemoApp.PageModels.DetailModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @attribute [Microsoft.AspNetCore.Authorization.Authorize]
 <html>
@@ -8,5 +9,23 @@
     <body>
         <h1>Hello Customer @User.Identity.Name</h1>
         <h3>Your Orders</h3>
+        <table border="1">
+            <tr>
+                <th>Product No</th>
+                <th>Quantity</th>
+                <th>Order Date</th>
+            </tr>
+            @foreach(var entry in Model.Output.Orders)
+            {
+                <tr>
+                    <td>@entry.ProductId</td>
+                    <td>@entry.Quantity</td>
+                    <td>@entry.OrderDate</td>
+                </tr>
+            }
+        </table>
+        <p>
+            <a asp-page-handler="logout">Logout</a>
+        </p>
     </body>
 </html>
