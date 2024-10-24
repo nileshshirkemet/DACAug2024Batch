@@ -1,0 +1,10 @@
+    1  clear
+    2  cd Enterprise/AspNetCoreMvc/RazorPagesTest/
+    3  ls
+    4  dotnet new web -n DemoApp -o DemoApp2
+    5  cd DemoApp2
+    6  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+    7  code .
+    8  dotnet run
+    9  cd ..
+   10  history >cmd24-10-24morning.txt 
