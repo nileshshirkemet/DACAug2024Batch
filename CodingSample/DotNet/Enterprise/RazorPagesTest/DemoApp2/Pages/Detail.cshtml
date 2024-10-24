@@ -1,0 +1,12 @@
+@page
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@attribute [Microsoft.AspNetCore.Authorization.Authorize]
+<html>
+    <head>
+        <title>DemoApp</title>
+    </head>
+    <body>
+        <h1>Hello Customer @User.Identity.Name</h1>
+        <h3>Your Orders</h3>
+    </body>
+</html>
