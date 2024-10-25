@@ -1,0 +1,12 @@
+/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/bin/Debug/net8.0/Sales.deps.json
+/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/bin/Debug/net8.0/Sales.dll
+/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/bin/Debug/net8.0/Sales.pdb
+/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/obj/Debug/net8.0/Sales.csproj.AssemblyReference.cache
+/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/obj/Debug/net8.0/Sales.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/obj/Debug/net8.0/Sales.AssemblyInfoInputs.cache
+/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/obj/Debug/net8.0/Sales.AssemblyInfo.cs
+/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/obj/Debug/net8.0/Sales.csproj.CoreCompileInputs.cache
+/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/obj/Debug/net8.0/Sales.dll
+/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/obj/Debug/net8.0/refint/Sales.dll
+/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/obj/Debug/net8.0/Sales.pdb
+/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/obj/Debug/net8.0/ref/Sales.dll

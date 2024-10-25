@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "uqL04YfaeI8+gx9Il5U9wmrDbBS/jiJj1GNMqs0QYrEW20E2NzP/jB0K/HBdK9SiqSD4ImCJHRHTf4hIxCWcOA==",
+  "success": true,
+  "projectFilePath": "/home/cdac/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/Sales.csproj",
+  "expectedPackageFiles": [
+    "/home/cdac/.nuget/packages/google.protobuf/3.28.3/google.protobuf.3.28.3.nupkg.sha512",
+    "/home/cdac/.nuget/packages/grpc/2.46.6/grpc.2.46.6.nupkg.sha512",
+    "/home/cdac/.nuget/packages/grpc.core/2.46.6/grpc.core.2.46.6.nupkg.sha512",
+    "/home/cdac/.nuget/packages/grpc.core.api/2.46.6/grpc.core.api.2.46.6.nupkg.sha512",
+    "/home/cdac/.nuget/packages/grpc.tools/2.67.0/grpc.tools.2.67.0.nupkg.sha512",
+    "/home/cdac/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
