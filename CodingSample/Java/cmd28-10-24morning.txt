@@ -1,0 +1,70 @@
+    1  cd Samples/Java/Core/DataTypes/
+    2  ls
+    3  mkdir PrimitiveTypeTest
+    4  cd PrimitiveTypeTest/
+    5  mkdir demo1
+    6  cd demo1/
+    7  touch Program.java
+    8  ls
+    9  code .
+   10  javac Program.java 
+   11  java Program 
+   12  javac Investment.java 
+   13  javac Program.java 
+   14  ls
+   15  java Program 200000 5
+   16  java Program 50000 12
+   17  cd ..
+   18  mv demo1/ demo
+   19  cd ..
+   20  mkdir UserDefTypeTest
+   21  cd UserDefTypeTest/
+   22  cp -r ../PrimitiveTypeTest/demo/ demo1
+   23  cd demo1
+   24  code .
+   25  javac Program.java 
+   26  java Program 200000 5
+   27  javac Program.java 
+   28  java Program 200000 5
+   29  javac Program.java 
+   30  java Program 200000 5
+   31  javac Program.java 
+   32  java Program 25000 12
+   33  java Program 60000 9
+   34  cd ..
+   35  cp -r demo1/ demo2
+   36  cd demo2/
+   37  code .
+   38  rm *.class
+   39  ls
+   40  javac Program.java 
+   41  ls
+   42  java Program 25000 12
+   43  java Program 60000 9
+   44  javap -p RiskLevel
+   45  java Program 60000 9
+   46  java Program 8
+   47  javac Program.java 
+   48  java Program 60000 9
+   49  java Program 8
+   50  java Program 2
+   51  ls
+   52  code .
+   53  mkdir bin
+   54  rm *.class
+   55  ls
+   56  javac -d bin/ *.java
+   57  ls
+   58  java Program 60000 9
+   59* 
+   60  ls
+   61  java Program 60000 9
+   62  cd ..
+   63  java Program 60000 9
+   64  java -cp bin/ Program 60000 9
+   65  vi program
+   66  bash program 8
+   67  chmod u+x program 
+   68  ./program  9
+   69  pwd
+   70  history > ../../../../../Java/cmd28-10-24morning.txt
