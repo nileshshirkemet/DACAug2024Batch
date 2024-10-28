@@ -28,7 +28,7 @@ class Investment {
     public double futureValue() {
         double i;
         switch(risk){
-            case LOW:
+            case :LOW:
                 i = 0.08;
                 break;
             case HIGH:

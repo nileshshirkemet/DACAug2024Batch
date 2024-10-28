@@ -1,0 +1,58 @@
+    1  clear
+    2  ls
+    3  cd Java 
+    4  ls
+    5  cd Core/
+    6  ls
+    7  cd DataTypes/
+    8  ls
+    9  cd UserDefTypeTest/
+   10  ls
+   11  cd demo2
+   12  ls
+   13  vi Investment.java 
+   14  vi RiskLevel.java 
+   15  vi Investment.java 
+   16  cd ../..
+   17  ls
+   18  cd ..
+   19  mkdir Inheritance
+   20  cd Inheritance/
+   21  mkdir SubclassTest
+   22  cd SubclassTest/
+   23  mkdir demo1
+   24  cd demo1/
+   25  touch Program.java
+   26  code .
+   27  javac -d bin Program.java 
+   28  ls bin/
+   29  ls bin/payroll/
+   30  java -cp bin/ Program 
+   31  javac -d bin Program.java 
+   32  java -cp bin/ Program
+   33  javac -d bin Program.java 
+   34  java -cp bin/ Program
+   35  cd ..
+   36  mkdir demo2
+   37  cd demo2
+   38  code .
+   39  javac -d bin Program.java
+   40  java -cp bin/ Program 
+   41  javac -d bin Program.java
+   42  java -cp bin/ Program 
+   43  javac -d bin Program.java
+   44  java -cp bin/ Program 
+   45  javac -d bin Program.java
+   46  java -cp bin/ Program 
+   47  javac -d bin Program.java
+   48  java -cp bin/ Program 
+   49  cp ../../../DataTypes/UserDefTypeTest/demo2/program .
+   50  mv program run
+   51  vi run 
+   52  ./run 
+   53  javap -c bin/Program.class 
+   54  cd ..
+   55  ls
+   56  cd ..
+   57  ls
+   58  history >cmd28-10-24evening.txt 
