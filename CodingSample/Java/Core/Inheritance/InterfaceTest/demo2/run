@@ -1,0 +1,3 @@
+javac -d bin  Program.java
+java -cp bin/ Program $*
+

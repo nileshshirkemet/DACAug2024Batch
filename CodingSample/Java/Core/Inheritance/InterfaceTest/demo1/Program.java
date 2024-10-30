@@ -1,8 +1,20 @@
 import banking.Account;
 import banking.Banker;
 import banking.InsufficientFundsException;
+import banking.Profitable;
 
 class Program {
+
+    //a method can enable 'varargs' for its last parameter (using ... operator)
+    //so that it can receive an array or a sequence of argument values
+    private static void payQuarterlyInterest(int count, Account... accounts) {
+        for(Account acc : accounts){
+            if(acc instanceof Profitable p){
+                double amount = p.interest(3 * count);
+                acc.deposit(amount);
+            }
+        }
+    }
 
     public static void main(String[] args) {
         Account jill = Banker.openSavingsAccount();
@@ -25,6 +37,10 @@ class Program {
             }catch(Exception e){
                 System.out.printf("Error: %s%n", e.getMessage());
             }
+        }else{
+            System.out.println("Paying annual interest...");
+            //payQuarterlyInterest(4, new Account[]{jill, jack, john});
+            payQuarterlyInterest(4, jill, jack, john);
         }
         System.out.printf("Jill's New Balance: %.2f%n", jill.balance());
         System.out.printf("Jack's New Balance: %.2f%n", jack.balance());

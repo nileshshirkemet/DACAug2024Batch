@@ -1,0 +1,33 @@
+    1  cd demo1/
+    2  ./run 
+    3  cd ..
+    4  mkdir demo2
+    5  cd demo2/
+    6  code .
+    7  javac -d bin taxation/*.java
+    8  javap bin/taxation/TaxPayer.class 
+    9  javac -d bin taxation/*.java
+   10  javap bin/taxation/TaxPayer.class 
+   11  javac -d bin/ Program.java 
+   12  ls bin/
+   13  cp ../demo1/run .
+   14  ./run jill 120
+   15  vi run 
+   16  ls
+   17  ls bin/
+   18  java -cp bin/ Program jill 120
+   19  javac -d bin/ Program.java 
+   20  java -cp bin/ Program jill 120
+   21  ./run 
+   22  vi run 
+   23  java -cp bin/ Program jill 120
+   24  java -cp bin/ Program jack 8
+   25  java -cp bin/ Program jim 25
+   26  java -cp bin/ Program jill 120
+   27  ./run jill 120
+   28  ./run jack 8
+   29  ./run jim 25
+   30  ./run jill 120
+   31  ./run jack 8
+   32  ./run jim 25
+   33  history > ../../../../cmd29-10-24evening.txt 

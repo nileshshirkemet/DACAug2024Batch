@@ -1,0 +1,21 @@
+class Program {
+
+    private static Object select(int index, Object first, Object second) {
+        if((index % 2) == 1)
+            return first;
+        return second;
+    }
+
+
+    public static void main(String[] args) {
+        if(args.length > 0){
+            int s = Integer.parseInt(args[0]);
+            String ss = (String)select(s, "Monday", "Tuesday");
+            System.out.printf("Selected String value = %s%n", ss);
+            double sd = (double)select(s, 58.7, 49.2);
+            System.out.printf("Selected double value = %s%n", sd);
+            String sr = (String)select(s, "April", 4.5);
+            System.out.printf("Selected rotten value = %s%n", sr);
+        }
+    }
+}
