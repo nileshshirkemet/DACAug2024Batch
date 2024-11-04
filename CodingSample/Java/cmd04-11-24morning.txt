@@ -1,0 +1,856 @@
+    1  /dev/null
+    2  cd ../..
+    3  mkdir PlatformInvokeTest
+    4  cd PlatformInvokeTest/
+    5  wget -qO- iitdac.met.edu/shared/dotnet/legacy.tar.gz | tar x
+    6  ls
+    7  dotnet new console -o DemoApp
+    8  cd DemoApp/
+    9  code .
+   10  dotnet run 10 20
+   11  cp ../NativeLib/libprimes.so bin/Debug/net8.0/
+   12  dotnet run 10 20
+   13  dotnet run 10 100
+   14  code .
+   15  dotnet run 10 100
+   16  dotnet run 10 100 5
+   17  dotnet run 10 100 10
+   18  history > ../../../cmd08-05-2024morning.txt
+   19  ls ../../../
+   20  clear
+   21  ls ~
+   22  cd Nile
+   23  cd ~
+   24  ls
+   25  cd Nilesh/
+   26  ls
+   27  cd Java
+   28  ls
+   29  cd Language-Runtime/
+   30  ls
+   31  cd ..
+   32  ls
+   33  cd Platform-Enterprise/
+   34  ls
+   35  cd ThreadTest/
+   36  ls
+   37  cd demo1
+   38  ls
+   39  code .
+   40  pwd
+   41  javac Program1.java
+   42  java Program
+   43  javap java.lang.runnable
+   44  javap java.lang.Runnable
+   45  clear
+   46  javac Program2.java
+   47  java Program
+   48  javac Program3.java
+   49  java Program 4
+   50  java Program 6
+   51  cd ..
+   52  cd demo2
+   53  ls
+   54  code .
+   55  cd ..
+   56  ls
+   57  exit
+   58  nc localhost 4000
+   59  exit
+   60  nc localhost 4000
+   61  cd Samples/DotNet/Platform-Enterprise/TcpSocketTest/DemoApp2
+   62  dotnet run
+   63  netstat -pnlt
+   64  kill 716
+   65  dotnet run
+   66  netstat -pnlt
+   67  kill 12505
+   68  netstat -pnlt
+   69  dotnet run
+   70  ./bin/Debug/net8.0/DemoApp 
+   71  dotnet run
+   72  ssh dacfaculty@iitdac.met.edu
+   73  exit
+   74  pwd
+   75  cd ..
+   76  dotnet new worker -n DemoApp -o DemoApp2
+   77  cd DemoApp2
+   78  code .
+   79  cp -r ../DemoApp1/Services/ .
+   80  cp -r ../DemoApp1/CitiTek.xml .
+   81  cd ..
+   82  dotnet new console -n DemoApp -o DemoApp3
+   83  nc localhost 4000
+   84  cd DemoApp3
+   85  ls
+   86  code .
+   87  dotnet run localhost
+   88  history >../../../cmd11-05-2024morning.txt
+   89  vi ../../../cmd11-05-2024morning.txt 
+   90  cp -r ../../../../DotNet/ /mnt/d/DAC0324/
+   91  exit
+   92  ssh dacfaculty@iitdac.met.edu
+   93  exit
+   94  ls ~/Samples/Foundations/Methodology/Templates/
+   95  cd AdoNetTest/DemoApp2
+   96  code .
+   97  dotnet run CU202 103 4
+   98  dotnet run CU202 203 4
+   99  dotnet run CU205 201 12
+  100  dotnet run CU204 201 12
+  101  cd ..
+  102  cp -r DemoApp2 DemoApp3
+  103  cd DemoApp3
+  104  code .
+  105  dotnet run CU201 205 15
+  106  dotnet run CU202 209 12
+  107  dotnet run CU202 202 12
+  108  history > ../../../cmd13-05-2024morning.txt 
+  109  vi ../../../cmd13-05-2024morning.txt 
+  110  cp -r ../../../../DotNet/ /mnt/d/DAC0324/
+  111  pwd
+  112  cd Samples/DotNet/Platform-Enterprise/GrpcServiceTest/ServerApp/
+  113  dotnet run
+  114  history > ../../../cmd19-05-2024Server.txt
+  115  exit
+  116  ls
+  117  cd Samples/
+  118  ld
+  119  tree
+  120  dir
+  121  ls
+  122  dotnet --version
+  123  java --version 
+  124  mkdir Old-Data
+  125  mv -r C_Prep/ Old-Data/
+  126  mv C_Prep/ Old-Data/
+  127  ls
+  128  mv Temp/ Old-Data/
+  129  mv dotnet-sdk-8.0.203-linux-x64.tar.gz/ Old-Data/
+  130  mv Samples/ Old-Data/
+  131  mv Nilesh/ Old-Data/
+  132  ls
+  133  mv Test/ Old-Data/
+  134  vi Old-Data/Test/
+  135  ls Old-Data/Test/
+  136  ls
+  137  mv dotnet-sdk-8.0.203-linux-x64.tar.gz/ Old-Data/
+  138  dotnet --version
+  139  java --version
+  140  mv dotnet-sdk-8.0.203-linux-x64.tar.gz Old-Data/
+  141  ls
+  142  mkdir DACSept24/
+  143  ls
+  144  exit
+  145  ls
+  146  cc
+  147  gcc
+  148  ls
+  149  exit
+  150  clear
+  151  vi ~/.vimrc 
+  152  rm -r ~/.m2/repository/
+  153  exit
+  154  mkdir Foundations
+  155  cd Foundations/
+  156  mkdir Machine
+  157  cd Machine/
+  158  uname -m
+  159  wget iitdac.met.edu/shared/asmrt-x64.tar.gz
+  160  tar xf asmrt-x64.tar.gz 
+  161  rm asmrt-x64.tar.gz 
+  162  ls
+  163  vi hello1.s
+  164  ls
+  165  ll
+  166  as hello1.s -o hello1.o
+  167  ll
+  168  ld hello1.o runtime.o -o hello1
+  169  ld hello1.o  -o hello1
+  170  ld hello1.o runtime.o -o hello1
+  171  ll
+  172  ./hello1
+  173  vi hello1.s
+  174  as hello1.s -o hello1.o
+  175  vi hello1.s
+  176  as hello1.s -o hello1.o
+  177  vi hello1.s
+  178  as hello1.s -o hello1.o
+  179  ld hello1.o runtime.o -o hello1
+  180  ./hello1 
+  181  vi hello1.s
+  182  ls
+  183  cd ..
+  184  ls
+  185  cd Foundations/
+  186  ls
+  187  clear
+  188  ls
+  189  history >cmd23_09_24_1.txt
+  190  vi cmd23_09_24_1.txt 
+  191  ls
+  192  mv cmd23_09_24_1.txt cmd23-09-24-1.txt
+  193  ls
+  194  ls Machine/
+  195  cd ..
+  196  cd Foundations/
+  197  ls
+  198  cd Machine/
+  199  ls
+  200  vi registertest.s
+  201  as registertest.s 
+  202  ll
+  203  ld a.out runtime.o -o program
+  204  ll
+  205  ./program 
+  206  ./program
+  207  vi registertest.s
+  208  vi condjmptest.s
+  209  as condjmptest.s 
+  210  ld a.out runtime.o -o program
+  211  ./program 
+  212  vi condjmptest.s
+  213  ./program 
+  214  vi condjmptest.s
+  215  as condjmptest.s 
+  216  ld a.out runtime.o -o program
+  217  ./program 
+  218  vi condjmptest.s
+  219  ./program 
+  220  vi condjmptest.s
+  221  cd ..
+  222  ls
+  223  vi cmd23-09-24-1.txt 
+  224  history >cmd23-09-24-2.txt 
+  225  vi cmd23-09-24-2.txt 
+  226  exit
+  227  clear
+  228  cd Foundations/Classes/
+  229  ls
+  230  mv temp.txt objectreftest.cpp
+  231  vi objectreftest.cpp 
+  232  c++ objectreftest.cpp -o program
+  233  ./program 
+  234  vi objectreftest.cpp 
+  235  c++ objectreftest.cpp -o program
+  236  ./program 
+  237  vi objectreftest.cpp 
+  238  c++ objectreftest.cpp -o program
+  239  ./program 
+  240  ulimit -s
+  241  ulimit -s 10240
+  242  ulimit -s
+  243  vi objarraytest.cpp
+  244  c++ objarraytest.cpp -o program 
+  245  vi objarraytest.cpp
+  246  c++ objarraytest.cpp -o program 
+  247  ./program 
+  248  vi objarraytest.cpp
+  249  c++ objarraytest.cpp -o program 
+  250  ./program 
+  251  vi objarraytest.cpp
+  252  c++ objarraytest.cpp -o program 
+  253  ./program 
+  254  vi objarraytest.cpp
+  255  c++ objarraytest.cpp -o program 
+  256  ./program 
+  257  vi objarraytest.cpp
+  258  c++ objarraytest.cpp -o program 
+  259  ./program 
+  260  vi objarraytest.cpp
+  261  c++ objarraytest.cpp -o program 
+  262  ./program 
+  263  vi objarraytest.cpp
+  264  c++ objarraytest.cpp -o program 
+  265  ./program 
+  266  vi objarraytest.cpp
+  267  c++ objarraytest.cpp -o program 
+  268  ./program 
+  269  vi objarraytest.cpp
+  270  cp interval1.h interval2.h
+  271  vi interval2.h 
+  272  vi opovldtest.cpp
+  273  c++ opovldtest.cpp -o program 
+  274  vi opovldtest.cpp
+  275  c++ opovldtest.cpp -o program 
+  276  ./program 
+  277  vi opovldtest.cpp
+  278  c++ opovldtest.cpp -o program 
+  279  ./program 
+  280  vi opovldtest.cpp
+  281  vi interval2.h 
+  282  c++ opovldtest.cpp -o program 
+  283  ./program 
+  284  vi interval2.h 
+  285  vi opovldtest.cpp
+  286  c++ opovldtest.cpp -o program 
+  287  ./program 
+  288  vi opovldtest.cpp
+  289  c++ opovldtest.cpp -o program 
+  290  vi opovldtest.cpp
+  291  vi interval2.h 
+  292  c++ opovldtest.cpp -o program 
+  293  ./program 
+  294  vi interval2.h 
+  295  vi opovldtest.cpp
+  296  c++ opovldtest.cpp -o program 
+  297  ./program 
+  298  vi opovldtest.cpp
+  299  vi interval2.h 
+  300  c++ opovldtest.cpp -o program 
+  301  ./program 
+  302  prompt>history>cmd29-09-24-morning.txt
+  303  pwd
+  304  sudo apt install libmodglue1v5
+  305  history
+  306  prompt>history>cmd29-09-24-morning.txt
+  307  clear
+  308  exit
+  309  clear
+  310  cd ..
+  311  mkdir Inheritance
+  312  cd Inheritance/
+  313  vi banners1.h
+  314  mv banners1.h banners.h
+  315  vi derivedclasstest.cpp
+  316  c++ derivedclasstest.cpp -o program
+  317  vi derivedclasstest.cpp
+  318  c++ derivedclasstest.cpp -o program
+  319  vi derivedclasstest.cpp
+  320  c++ derivedclasstest.cpp -o program
+  321  ./program 
+  322  vi derivedclasstest.cpp
+  323  vi banners.h
+  324  c++ derivedclasstest.cpp -o program
+  325  ./program 
+  326  vi derivedclasstest.cpp
+  327  c++ derivedclasstest.cpp -o program
+  328  ./program 
+  329  vi derivedclasstest.cpp
+  330  cd ..
+  331  ls
+  332  history > cmd30_09_24.txt
+  333  exit
+  334  clear
+  335  cd Foundations/Inheritance/
+  336  ls
+  337  cp adttest.cpp virtbasetest.cpp
+  338  vi virtbasetest.cpp 
+  339  c++ virtbasetest.cpp boards.o -o program
+  340  vi virtbasetest.cpp 
+  341  vi boards.h
+  342  c++ -c boards.cpp 
+  343  c++ virtbasetest.cpp boards.o -o program
+  344  ./program
+  345  c++ -c boards.cpp 
+  346  vi virtbasetest.cpp 
+  347  vi boards.h
+  348  cd ..
+  349  mkdir Templates
+  350  cd Templates/
+  351  vi functmplttest.cpp
+  352  c++ functmplttest.cpp -o program
+  353  ./program 
+  354  vi functmplttest.cpp
+  355  c++ functmplttest.cpp -o program
+  356  vi functmplttest.cpp
+  357  c++ functmplttest.cpp -o program
+  358  ./program 
+  359  vi functmplttest.cpp
+  360  cp ../Classes/interval1.h interval.h
+  361  vi interval.h 
+  362  vi functmplttest.cpp
+  363  c++ functmplttest.cpp -o program
+  364  vi functmplttest.cpp
+  365  c++ functmplttest.cpp -o program
+  366  vi functmplttest.cpp
+  367  c++ functmplttest.cpp -o program
+  368  ./program 
+  369  vi functmplttest.cpp
+  370  c++ functmplttest.cpp -o program
+  371  vi functmplttest.cpp
+  372  pwd
+  373  history ../cmd03_10_24_1.txt
+  374  history > ../cmd03_10_24_1.txt
+  375  ls ../
+  376  vi ../cmd03_10_24_1.txt 
+  377  cp -r ../../Foundations/ /mnt/d/Foundations/
+  378  cp -r ../../Foundations/ /mnt/d/DAC0824/
+  379  rm ../01_10_24.txt 
+  380  exit
+  381  clear
+  382  cd Templates/
+  383  ls
+  384  vi gencontainertest.cpp
+  385  c++ gencontainertest.cpp -o program 
+  386  vi gencontainertest.cpp
+  387  c++ gencontainertest.cpp -o program 
+  388  ./program 
+  389  vi gencontainertest.cpp
+  390  c++ gencontainertest.cpp -o program 
+  391  ./program 
+  392  vi gencontainertest.cpp
+  393  c++ gencontainertest.cpp -o program 
+  394  ./program 
+  395  vi gencontainertest.cpp
+  396  c++ gencontainertest.cpp -o program 
+  397  vi gencontainertest.cpp
+  398  c++ gencontainertest.cpp -o program 
+  399  ./program 
+  400  vi gencontainertest.cpp
+  401  c++ gencontainertest.cpp -o program 
+  402  ./program 
+  403  vi gencontainertest.cpp
+  404  cp gencontainertest.cpp genalgorithmtest.cpp
+  405  vi genalgorithmtest.cpp 
+  406  c++ genalgorithmtest.cpp -o program
+  407  ./program 
+  408  vi genalgorithmtest.cpp 
+  409  c++ genalgorithmtest.cpp -o program
+  410  ./program 
+  411  vi genalgorithmtest.cpp 
+  412  c++ genalgorithmtest.cpp -o program
+  413  ./program 
+  414  vi genalgorithmtest.cpp 
+  415  c++ genalgorithmtest.cpp -o program
+  416  ./program 
+  417  vi genalgorithmtest.cpp 
+  418  c++ genalgorithmtest.cpp -o program
+  419  ./program 
+  420  ./program 8
+  421  vi genalgorithmtest.cpp 
+  422  c++ genalgorithmtest.cpp -o program
+  423  ./program 8
+  424  vi genalgorithmtest.cpp 
+  425  vi rangestest.cpp
+  426  c++ rangestest.cpp 
+  427  c++ -std::c++20 rangestest.cpp 
+  428  c++ -std=c++20 rangestest.cpp 
+  429  c++ -std=c++2a rangestest.cpp 
+  430  c++ --version
+  431  uname 
+  432  uname -a
+  433  c++ --version
+  434  vi rangestest.cpp 
+  435  notepad.exe rangestest.cpp 
+  436  ssh unipro@linuxarm.km-hussain.xyz
+  437  exit
+  438  exit
+  439  apt search '^g\+\+-[0-9]+$'
+  440  gcc --version
+  441  sudo apt update
+  442  gcc --version
+  443  sudo apt upgrade
+  444  gcc --version
+  445  sudo apt install build-essential
+  446  mkdir DotNet
+  447  cd DotNet/
+  448  mkdir Fundamentals
+  449  cd Fundamentals/
+  450  dotnet --version
+  451  uname -m
+  452  vi Hello.il
+  453  ls
+  454  dotnet ilasm -dll Hello.il
+  455  ls
+  456  ll
+  457  dotnet --list-runtimes
+  458  vi Hello.il
+  459  dotnet Hello.dll 
+  460  vi Hello.runtimeconfig.json
+  461  dotnet Hello.dll 
+  462  vi Hello.il
+  463  explorer.exe .
+  464  vi Hello.il
+  465  dotnet ilasm -dll Hello.il
+  466  vi Hello.il
+  467  dotnet ilasm -dll Hello.il
+  468  vi Hello.il
+  469  dotnet ilasm -dll Hello.il
+  470  vi Hello.runtimeconfig.json
+  471  dotnet Hello.dll 
+  472  mkdir ~/Test
+  473  cp * ~/Test
+  474  ssh unipro@linuxarm.km-hussain.xyz
+  475  ls
+  476  vi Hello.il
+  477  cd ~
+  478  ls
+  479  cd DotNet/
+  480  ls
+  481  history >cmd04-10-24evening.txt
+  482  vi cmd04-10-24evening.txt 
+  483  dotnet 
+  484  exit
+  485  clear
+  486  mkdir Samples
+  487  mv Foundations/ Samples/
+  488  mv DotNet/ Samples/
+  489  cd Samples/DotNet/Fundamentals/
+  490  ls
+  491  mkdir DataTypes
+  492  cd DataTypes/
+  493  mkdir PrimitiveTypeTest
+  494  cd PrimitiveTypeTest/
+  495  mkdir DemoApp
+  496  cd DemoApp/
+  497  vi Program.cs
+  498  vi DemoApp.csproj
+  499  dotnet build
+  500  ls
+  501  ll bin/Debug/net8.0/
+  502  dotnet bin/Debug/net8.0/DemoApp.dll 
+  503  ./bin/Debug/net8.0/DemoApp 
+  504  vi Program.cs 
+  505  vi DemoApp.csproj 
+  506  dotnet run
+  507  code .
+  508  dotnet run Jack Jill
+  509  dotnet run Jack
+  510  pwd
+  511  history > ../../../../cmd05-10-24morning.txt 
+  512  vi ../../../../cmd05-10-24morning.txt 
+  513  cd ../../../
+  514  cd ..
+  515  cp -r DotNet /mnt/d/DAC0824/
+  516  cd DotNet/Fundamentals/DataTypes/PrimitiveTypeTest/DemoApp/
+  517  ls
+  518  dotnet run
+  519  dotnet run jack
+  520  exit
+  521  cd DotNet/Fundamentals/
+  522  ls
+  523  cd Inheritance/
+  524  ls
+  525  mkdir InterfaceTypeTest
+  526  cd InterfaceTypeTest/
+  527  dotnet new classlib -n Banking -o BankLib
+  528  ls
+  529  dotnet new console -n DemoApp -o DemoApp1
+  530  ls
+  531  code .
+  532  cd BankLib/
+  533  dotnet run
+  534  cd ../DemoApp1/
+  535  dotnet run
+  536  ls bin/Debug/net8.0/
+  537  dotnet build
+  538  ls bin/Debug/net8.0/
+  539  cd ..
+  540  ls
+  541  history >cmd08-10-24evening.txt 
+  542  cd Fundamentals/Inheritance/InterfaceTypeTest/
+  543  ls
+  544  dotnet new console -n DemoApp -o DemoApp2
+  545  cd DemoApp2/
+  546  code .
+  547  dotnet run Jill 120
+  548  dotnet run Jill 1.20
+  549  dotnet run Jill 10
+  550  dotnet run John 120
+  551  dotnet run Jack 5
+  552  dotnet run Jim 60
+  553  dotnet run Jill 10
+  554  dotnet run Jack 5
+  555  dotnet run Jim 60
+  556  dotnet run Jill 10
+  557  dotnet run Jim 60
+  558  history > ../../../../cmd10-10-24morning.txt 
+  559  vi ../../../../cmd10-10-24morning.txt 
+  560  cd  ../../../../
+  561  ls
+  562  cd ..
+  563  cp -r DotNet/ /mnt/d/DAC0824/
+  564  cd DotNet/
+  565  ls
+  566  rm -r cmd07-10-24morning.txt:Zone.Identifier
+  567  ls
+  568  exit
+  569  cd ls
+  570  l
+  571  ld
+  572  ls
+  573  cd dotnet
+  574  ls
+  575  cd ..
+  576  ls
+  577  mkdir Enterprise
+  578  cd Enterprise/
+  579  mkdir Networking
+  580  cd Networking/
+  581  mkdir TcpServerTest
+  582  cd TcpServerTest/
+  583  dotnet new console -n DemoApp -o DemoApp1
+  584  cd DemoApp1/
+  585  wget iitdac.met.edu/shared/dotnet/EviTek.store
+  586  code .
+  587  pwd
+  588  history > ../../../../cmd17-10-24morning.txt 
+  589  vi ../../../../cmd17-10-24morning.txt 
+  590  cd ../../../../../
+  591  cp -r DotNet /mnt/d/DAC0824/
+  592  nc localhost 4000
+  593  cd Samples/DotNet/Enterprise/Networking/TcpServerTest/DemoApp1/
+  594  ls
+  595  netstat -pnlt
+  596  dotnet run
+  597  nc localhost 4000
+  598  netstat -pnlt
+  599  nc localhost 4000
+  600  netstat -pnlt
+  601  nc localhost 4000
+  602  cd ../DemoApp2
+  603  dotnet run
+  604  pwd
+  605  history > ../../../../cmd18-10-24morning-II.txt 
+  606  cd ../../../../
+  607  mv cmd18-10-24morning.txt cmd18-10-24morning-I.txt
+  608  ls
+  609  exit
+  610  clear
+  611  cd Enterprise/AdoNet/ExecSqlTest/DemoApp2/
+  612  code .
+  613  dotnet run CU204 202 9
+  614  dotnet run CU203 208 15
+  615  dotnet run CU203 203 15
+  616  cd ..
+  617  mkdir StoredProcTest
+  618  cd StoredProcTest/
+  619  dotnet new console -n DemoApp
+  620  cd DemoApp/
+  621  wget iitdac.met.edu/shared/data/shopms.sql
+  622  code .
+  623  dotnet add package Microsoft.Data.SqlClient
+  624  dotnet run CU201 202 13
+  625  dotnet run CU205 205 15
+  626  cd ..\
+  627  ls
+  628  cd ..
+  629  ls
+  630  vi cmd18-10-24morning
+  631  clear
+  632  cd Enterprise/
+  633  ls
+  634  mkdir EFCore
+  635  cd EFCore/
+  636  mkdir CodeFirstTest
+  637  cd CodeFirstTest/
+  638  dotnet new console -n DemoApp
+  639  cd DemoApp/
+  640  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+  641  code .
+  642  ls
+  643  dotnet run
+  644  ls
+  645  sqlite3 site.db 
+  646  dotnet run Jack
+  647  dotnet run Jill
+  648  dotnet run Jack
+  649  dotnet run
+  650  dotnet run Jim
+  651  dotnet run
+  652  sqlite3 site.db 
+  653  cd ..
+  654  ls
+  655  cd ..
+  656  cd EFCore/
+  657  cd ..
+  658  vi cmd20-10-24morning
+  659  pwd
+  660  history>cmd20-10-24-morning.txt
+  661  clear
+  662  mkdir Java
+  663  cd Java/
+  664  mkdir Core
+  665  cd Core/
+  666  mkdir DataTypes
+  667  cd DataTypes/
+  668  cd ..
+  669  ls
+  670  vi Hello.java
+  671  ls
+  672  javac Hello.java 
+  673  ls
+  674  java --version
+  675  java Greeter
+  676  vi Hello.java
+  677  javac Hello.java 
+  678  java Greeter
+  679  vi Hello.java
+  680  javac Hello.java 
+  681  java Greeter
+  682  vi Hello.java
+  683  javac Hello.java 
+  684  java Greeter
+  685  java Greeter Jack Jill John
+  686  java Greeter Jack and Jill John
+  687  java Greeter "Jack and Jill" John
+  688  uname -m
+  689  wget iitdac.met.edu/shared/web/nginx.tar.gz
+  690  tar xf nginx.tar.gz 
+  691  cd nginx/
+  692  ls
+  693  ./sbin/nginx 
+  694  cd ../
+  695  rm -r nginx nginx.tar.gz 
+  696  ls
+  697  cp /mnt/c/Users/efaculty1/Downloads/nginx-1.26.2.tar.gz 
+  698  cp /mnt/c/Users/efaculty1/Downloads/nginx-1.26.2.tar.gz .
+  699  tar xvf nginx-1.26.2.tar.gz 
+  700  cd nginx-1.26.2/
+  701  ls
+  702  ./configure --prefix=$HOME/nginx
+  703  ./configure --prefix=$HOME/nginx --without-http_rewrite_module
+  704  make install
+  705  cd ~/nginx
+  706  ls
+  707  cd ..
+  708  rm -r nginx-1.26.2*
+  709  ls
+  710  tar cf nginx.tar.gz nginx/
+  711  cd nginx/
+  712  ls
+  713  ./sbin/nginx 
+  714  vi conf/nginx.conf
+  715  ./sbin/nginx 
+  716  cd ..
+  717  cd ./nginx/
+  718  ./sbin/nginx s - stop
+  719  ./sbin/nginx s -stop
+  720  ./sbin/nginx -s stop
+  721  cd ..
+  722  cp nginx/conf/nginx.conf /tmp
+  723  rm -r nginx
+  724  tar xvf nginx.tar.gz 
+  725  cp /tmp/nginx.conf nginx/conf/
+  726  vi nginx/conf/nginx.conf
+  727  rm nginx.tar.gz 
+  728  tar cf nginx.tar.gz nginx/
+  729  cd nginx/
+  730  ./sbin/nginx 
+  731  wget localhost:8000
+  732  rm index.html 
+  733  curl localhost:8000
+  734  cd ..
+  735  cd nginx/
+  736  ./sbin/nginx -s stop
+  737  cd ../..
+  738  cd cdac/
+  739  ls
+  740  rm -r nginx
+  741  ls
+  742  rm nginx.tar.gz 
+  743  exit
+  744  clear
+  745  cd Samples/Java/Core/
+  746  ls
+  747  mkdir Generics
+  748  cd Generics/
+  749  mkdir TypeParamTest
+  750  cd TypeParamTest/
+  751  mkdir demo1
+  752  cd demo1/
+  753  code .
+  754  javac -d bin Program.java
+  755  java -cp bin/ Program 47
+  756  java -cp bin/ Program 74
+  757  javac -d bin Program.java
+  758  java -cp bin/ Program 47
+  759  java -cp bin/ Program 74
+  760  javac -d bin Program.java
+  761  java -cp bin/ Program 74
+  762  java -cp bin/ Program 47
+  763  javac -d bin Program.java
+  764  code .
+  765  javac -d bin Program.java
+  766  java -cp bin/ Program 47
+  767  java -cp bin/ Program 74
+  768  javac -d bin Program.java
+  769  java -cp bin/ Program 47
+  770  java -cp bin/ Program 74
+  771  javac -d bin Program.java
+  772  java -cp bin/ Program
+  773  javap java.lang.Comparable
+  774  cp ../../../Inheritance/SubclassTest/demo2/Interval.java .
+  775  javap java.lang.String
+  776  javap java.lang.Double
+  777  javac -d bin Program.java
+  778  java -cp bin/ Program
+  779  cd ..
+  780  mkdir demo2
+  781  cd demo2/
+  782  cp ../../../Inheritance/SubclassTest/demo2/run .
+  783  code .
+  784  cp ../demo1/Interval.java .
+  785  ./run 
+  786  cd ../..
+  787  mkdir IterationTest
+  788  cd IterationTest/
+  789  mkdir demo1
+  790  cd demo1/
+  791  cp ../../TypeParamTest/demo2/SimpleStack.java .
+  792  code .
+  793  cp ../../TypeParamTest/demo2/run .
+  794  ./run 
+  795  javap java.util.Iterator
+  796  ./run 
+  797  ll bin/
+  798  ./run 
+  799  history > ../../../../cmd30-10-24morning.txt 
+  800  vi ../../../../cmd30-10-24morning.txt 
+  801  cd ../../../../
+  802  cd ..
+  803  cp -r Java /mnt/d/DAC0824/
+  804  cd Java/Core/Generics/IterationTest/
+  805  ls
+  806  mkdir demo1
+  807  mkdir demo3
+  808  rmdir demo3
+  809  mkdir demo2
+  810  cd demo2
+  811  ls
+  812  touch Program.java
+  813  code .
+  814  cp ../../TypeParamTest/demo1/Interval.java .
+  815  javac -d bin *.java
+  816  java -cp bin/ Program
+  817  javac -d bin *.java
+  818  java -cp bin/ Program
+  819  javac -d bin *.java
+  820  java -cp bin/ Program
+  821  javac -d bin *.java
+  822  java -cp bin/ Program
+  823  javac -d bin *.java
+  824  java -cp bin/ Program
+  825  javac -d bin *.java
+  826  java -cp bin/ Program friday
+  827  java -cp bin/ Program monday
+  828  java -cp bin/ Program sunday
+  829  javac -d bin *.java
+  830  java -cp bin/ Program sunday
+  831  javac -d bin *.java
+  832  java -cp bin/ Program sunday
+  833  cd ../..
+  834  cd ..
+  835  mkdir Functional
+  836  cd Functional/
+  837  mkdir MethodRefTest
+  838  cd MethodRefTest/
+  839  mkdir demo
+  840  cd demo/
+  841  code .
+  842  javap java.lang.Iterable
+  843  javap java.lang.Comparable
+  844  javap java.util.Comparator
+  845  javap java.lang.Runnable
+  846  javap java.util.Iterator
+  847  javap java.io.Serializable
+  848  javac -d bin Program.java 
+  849  java -cp bin/ Program 200000 5
+  850  ls bin/
+  851  ls
+  852  cd ..
+  853  ls
+  854  cd ..
+  855  ls
+  856  history >cmd04-11-24morning.txt
