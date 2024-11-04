@@ -12,6 +12,14 @@ class Investment {
         years = period;
     }
 
+    public double payment() {
+        return payment;
+    }
+
+    public int years() {
+        return years;
+    }
+
     public double futureValue(InterestRate rate) {
         double i = rate.forPeriod(years) / 100;
         return (payment / i) * (pow(1 + i, years) - 1);
