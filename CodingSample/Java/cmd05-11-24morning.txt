@@ -1,0 +1,38 @@
+    1  clear
+    2  javap java.util.stream.Stream
+    3  cd Core/Functional/
+    4  ls
+    5  mkdir StreamTest
+    6  cd StreamTest/
+    7  ls
+    8  mkdir demo1
+    9  cd demo1/
+   10  code .
+   11  javac -d bin *.java
+   12  javap bin/Item.class 
+   13  javap -p bin/Item.class 
+   14  javac -d bin/ *.java
+   15  java -cp bin/ Program items intel
+   16  java -cp bin/ Program items samsung
+   17  java -cp bin/ Program items apple
+   18  javac -d bin/ *.java
+   19  java -cp bin/ Program customers 0
+   20  java -cp bin/ Program customers 50000
+   21  java -cp bin/ Program customers 80000
+   22  java -cp bin/ Program customers 100000
+   23  java -cp bin/ Program customers 150000
+   24  java -cp bin/ Program items apple
+   25  javac -d bin/ *.java
+   26  java -cp bin/ Program customers 0
+   27  cd ..
+   28  mv demo1/ demo
+   29  ls
+   30  cd ../..
+   31  ls
+   32  mkdir Runtime
+   33  cd Runtime/
+   34  ls
+   35  mkdir Reflection
+   36  cd Reflection/
+   37  javap java.lang.Class
+   38  history > ../../../cmd05-11-24morning.txt 
