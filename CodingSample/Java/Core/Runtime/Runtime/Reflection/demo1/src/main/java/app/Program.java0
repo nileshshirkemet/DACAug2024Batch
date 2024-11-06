@@ -1,0 +1,28 @@
+package app;
+
+import finance.EducationLoan;
+import finance.HomeLoan;
+import finance.Loans;
+import finance.PersonalLoan;
+
+public class Program {
+    
+    public static void main(String[] args) {
+        double p = Double.parseDouble(args[0]);
+        int m = 10;
+        for(int n = 1; n <= m; ++n){
+            float r = commonRate(args[1], p, n);
+            double emi = Loans.monthlyInstallment(p, n, r);
+            System.out.printf("%-8d%20.2f%n", n, emi);
+        }
+    }
+
+    private static float commonRate(String policy, double amount, int period) {
+        return switch(policy) {
+            case "EducationLoan" -> new EducationLoan().common(amount, period);
+            case "PersonalLoan" -> new PersonalLoan().common(amount, period);
+            case "HomeLoan" -> new HomeLoan().common(amount, period);
+            default -> throw new IllegalArgumentException("Invalid loan policy");
+        };
+    }
+}
