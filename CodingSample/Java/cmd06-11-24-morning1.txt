@@ -1,0 +1,57 @@
+ 746  cd Samples/Java/Core/Runtime/
+  747  ls
+  748  cd Reflection/
+  749  ls
+  750  cd bankfin/
+  751  code .
+  752  mvn -q install
+  753  cd ..
+  754  cp -r demo1/ demo2
+  755  cd demo2/
+  756  code .
+  757  ./run 600000 EducationLoan scholar
+  758  ./run 600000 CarLoan common
+  759  ./run 600000 CarLoan employee
+  760  ./run 600000 PersonalLoan employee
+  761  ./run 600000 EducationLoan common
+  762  ./run 600000 EducationLoan scholar
+  763  ./run 600000 PersonalLoan common
+  764  ./run 600000 PersonalLoan employee
+  765  ./run 600000 HomeLoan woman
+  766  ./run 600000 HomeLoan welfare
+  767  ./run 600000 CarLoan common
+  768  ./run 600000 HomeLoan welfare
+  769  cd ..
+  770  cd Runtime
+  771  ls
+  772  cd ../../../../
+  773  ls
+  774  cd DACSept24/
+  775  ls
+  776  cd ../dotnet
+  777  ls
+  778  cd ..
+  779  cd Samples/
+  780  ls
+  781  cd Java/
+  782  ls
+  783  cd Core/
+  784  LS
+  785  ls
+  786  cd Runtime/
+  787  ls
+  788  cd Reflection/
+  789  ls
+  790  history > ../../../ls
+  791  history > ../../../cmd06-11-24-morning.txt
+  792  cd ../../../
+  793  ls
+  794  cd Core/
+  795  LS
+  796  ls
+  797  cd Runtime/
+  798  ls
+  799  cd Reflection/
+  800  ls
+  801  cd demo2
+ 
