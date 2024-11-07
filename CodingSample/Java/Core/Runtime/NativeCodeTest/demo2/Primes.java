@@ -16,6 +16,12 @@ class Primes {
 
     final static MemoryLayout primesRangeLayout = MemoryLayout.structLayout(JAVA_LONG, JAVA_INT);
 
+    final static MemorySegment selectorStubSegment = NativeLinking.exportMethod(null, Primes.class, "isFavorite", JAVA_BOOLEAN, JAVA_LONG);
+
+    static boolean isFavorite(long prime) {
+        return (prime - 1) % 4 == 0;
+    }
+
     public static int countBetween(long first, long last) {
         try{
             return (int) primesCountHandle.invoke(first, last);
@@ -30,7 +36,8 @@ class Primes {
             primesRangeLayout.varHandle(PathElement.groupElement(0)).set(range, 0, start);
             primesRangeLayout.varHandle(PathElement.groupElement(1)).set(range, 0, count);
             var store = arena.allocate(JAVA_LONG, count);
-            primesFetchHandle.invoke(range, store, MemorySegment.NULL);
+            //primesFetchHandle.invoke(range, store, MemorySegment.NULL);
+            primesFetchHandle.invoke(range, store, selectorStubSegment);
             return store.toArray(JAVA_LONG);
         }catch(Throwable t){
             throw new RuntimeException(t);
