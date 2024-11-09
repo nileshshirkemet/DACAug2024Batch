@@ -1,0 +1,9 @@
+[
+	{"id":"cpu","cost":19000,"stock":50},
+	{"id":"motherboard","cost":8500,"stock":65},
+	{"id":"ddr","cost":3500,"stock":85},
+	{"id":"ssd","cost":4500,"stock":30},
+	{"id":"keyboard","cost":900,"stock":90},
+	{"id":"mouse","cost":550,"stock":120},
+	{"id":"monitor","cost":8000,"stock":20}
+]

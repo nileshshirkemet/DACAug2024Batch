@@ -1,0 +1,10 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <entry key="cpu">cost=19000&amp;stock=50</entry>
+  <entry key="motherboard">cost=8500&amp;stock=65</entry>
+  <entry key="ddr">cost=3500&amp;stock=85</entry>
+  <entry key="ssd">cost=4500&amp;stock=30</entry>
+  <entry key="keyboard">cost=900&amp;stock=90</entry>
+  <entry key="mouse">cost=550&amp;stock=120</entry>
+  <entry key="monitor">cost=8000&amp;stock=15</entry>
+</properties>
