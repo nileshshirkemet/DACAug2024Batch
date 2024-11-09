@@ -1,0 +1,43 @@
+    1  clear
+    2  mvn
+    3  cd Reflection/
+    4  ls
+    5  mkdir bankfin
+    6  cd bankfin/
+    7  mkdir -p src/main/java
+    8  vi pom.xml
+    9  code .
+   10  mvn install
+   11  ls ~/.m2/repository/samples/java/core/bank-fin/1.0.0/
+   12  cd ..
+   13  mkdir demo1
+   14  cd demo1/
+   15  mkdir -p src/main/java
+   16  cp ../bankfin/pom.xml .
+   17  code .
+   18  mvn compile
+   19* 
+   20  mvn compile dependency:copy-dependencies
+   21  mvn -q clean compile dependency:copy-dependencies
+   22  java -cp target/classes/:target/dependency/* app.Program 600000 EducationLoan
+   23  vi run
+   24  bash run 600000 PersonalLoan
+   25  chmod u+x run 
+   26  ./run 6000000 HomeLoan 
+   27  ./run 800000 CarLoan 
+   28  cd ../bankfin/
+   29  code .
+   30  mvn -q install
+   31  ls ~/.m2/repository/samples/java/core/bank-fin/
+   32  cd ../demo1/
+   33  code .
+   34  ./run 600000 EducationLoan common
+   35  ./run 600000 EducationLoan scholar
+   36  ./run 600000 PersonalLoan common
+   37  ./run 600000 PersonalLoan employee
+   38  ./run 600000 PersonalLoan cop
+   39  ./run 600000 HomeLoan common
+   40  ./run 600000 HomeLoan woman
+   41  ./run 600000 HomeLoan man
+   42  ./run 600000 HomeLoan welfare
+   43  history > ../../../../cmd05-11-24evening.txt 

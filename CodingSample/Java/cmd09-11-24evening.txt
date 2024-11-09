@@ -1,0 +1,35 @@
+    1  cd Java/Advanced/
+    2  ls
+    3  cd JDBC/
+    4  ls
+    5  mkdir ExecSQLTest
+    6  cd ExecSQLTest/
+    7  unzip -d demo1 ../../maven-projects/simple-app.zip 
+    8  cd demo1/
+    9  mysql -h dac-faculty.local -D sales -u root -proot
+   10  mysql -h dac-faculty.local -D sales -u root -proott
+   11  mysql -h dac-faculty.local -D sales -u root -proot
+   12  code .
+   13  ./run 
+   14  ls target/dependency/
+   15  vi run 
+   16  ./run 
+   17  ./run  302
+   18  ./run 
+   19  ./run 203
+   20  ./run 
+   21  ./run 304
+   22  ./run 
+   23  cd ..
+   24  unzip -d demo2 ../../maven-projects/simple-app.zip 
+   25  cd demo2
+   26  mysql -h dac-faculty.local -D sales -u root -proot
+   27  code .
+   28  ./run 
+   29  ls target/dependency/
+   30  ./run CU102 104 9
+   31  ./run CU104 106 10
+   32  ./run CU104 105 10
+   33  cd ..
+   34  ls
+   35  history >cmd09-11-24evening.txt 

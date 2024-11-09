@@ -1,0 +1,40 @@
+    1  1-
+    2  javac -d bin/ *.java
+    3  java -cp bin/ Program 10
+    4  java -cp bin/ Program 20
+    5  java -cp bin/ Program 30
+    6  javac -d bin/ *.java
+    7  java -cp bin/ Program 20
+    8  java -cp bin/ Program 30
+    9  cd ../..
+   10  cd ..
+   11  mkdir Advanced
+   12  cd Advanced/
+   13  mkdir Networking
+   14  cd Networking/
+   15  mkdir TCPServerTest
+   16  cd ..
+   17  wget iitdac.met.edu/java/maven-projects.tar.gz
+   18  wget iitdac.met.edu/shared/java/maven-projects.tar.gz
+   19  ls
+   20  tar x maven-projects.tar.gz
+   21  tar xf maven-projects.tar.gz
+   22  ls
+   23  rm maven-projects.tar.gz 
+   24  ls
+   25  ls maven-projects/
+   26  cd Networking/
+   27  ls
+   28  cd TCPServerTest/
+   29  ls
+   30  unzip -d demo1 ../../maven-projects/simple-app.zip 
+   31  cd demo1
+   32  ls
+   33  wget iitdac.met.edu/shared/java/EviTek.store
+   34  code .
+   35  nc localhost 4000
+   36  history > ../../../../cmd08-11-24morning.txt 
+
+
+   ===== Second Command Prompt =====
+   37  ./run

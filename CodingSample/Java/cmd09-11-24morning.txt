@@ -1,0 +1,22 @@
+    1  cd Advanced/Networking/
+    2  ls
+    3  cd TCPClientTest/
+    4  ls
+    5  cp -r demo1/ demo2
+    6  cd demo2
+    7  vi pom.xml 
+    8  vi ../demo1/pom.xml 
+    9  code .
+   10  ./run ssd 4 iitdac.met.edu
+   11  ./run 2 xbox iitdac.met.edu
+   12  ./run xbox 2 iitdac.met.edu
+   13  ./run xbox 2 met.hussain.in
+   14  ./run mouse 20 iitdac.met.edu
+   15  ./run mouse 200 iitdac.met.edu
+   16  ./run ssd 4 iitdac.met.edu
+   17  ./run xbox 2 met.hussain.in
+   18  cd ../..
+   19  cd ..
+   20  mkdir JDBC
+   21  cd JDBC
+   22  history > ../../../Java/cmd09-11-24morning.txt 
