@@ -1,0 +1,40 @@
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="3.1">
+
+	<entity class="app.tourism.data.TravelerEntity">        
+		<table name="travelers"/>
+		<attributes>
+			<id name="id">
+				<column name="traveler_name"/>
+			</id>
+			<basic name="rating">
+				<column name="rating"/>
+			</basic>
+			<one-to-many name="tours" mapped-by="guest">
+				<cascade>
+					<cascade-all/>
+				</cascade>
+			</one-to-many>
+		</attributes>
+	</entity>
+
+	<entity class="app.tourism.data.TripEntity">        
+		<table name="trips"/>
+		<attributes>
+			<id name="id">
+				<column name="trip_id"/>
+				<generated-value strategy="IDENTITY"/>
+			</id>
+			<basic name="checkin">
+				<column name="chekin_date"/>
+			</basic>
+			<many-to-one name="guest">
+				<join-column name="guest_name"/>
+			</many-to-one>
+		</attributes>
+	</entity>
+
+
+</entity-mappings>
+
