@@ -1,0 +1,12 @@
+    1  pwd
+    2  cd Java/Advanced/JPA/EntityTest/demo/
+    3  ./run Jack
+    4  ./run Jill
+    5  ./run Jack
+    6  ./run
+    7  mysql -h dac-faculty.local -u root -proot
+    8  cd ..
+    9  ls
+   10  cd ..
+   11  ls
+   12  history >cmd11-11-24evening.txt 
