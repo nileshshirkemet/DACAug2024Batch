@@ -1,0 +1,23 @@
+    1  cd Advanced/JDBC/
+    2  ls
+    3  mkdir StoredProcTest
+    4  cd StoredProcTest/
+    5  ls
+    6  cp -r ../ExecSQLTest/demo2/ demo
+    7  cd demo/
+    8  ls
+    9  code .
+   10  wget iitdac.met.edu/shared/data/salesora.sql
+   11  ./run CU104 105 15
+   12  ./run CU106 102 12
+   13  ./run CU102 102 12
+   14  cd ..
+   15  mkdir JPA
+   16  cd JPA
+   17  mkdir EntityTest
+   18  cd EntityTest/
+   19  unzip -d demo ../../maven-projects/eclink-app.zip 
+   20  cd demo/
+   21  code .
+   22  mysql -h dac-faculty.local -u root -proot 
+   23  history > ../../../../cmd11-11-24morning.txt 
