@@ -1,0 +1,15 @@
+    1  cd Advanced/JPA/
+    2  ls
+    3  mkdir AnnotationsTest
+    4  cd AnnotationsTest/
+    5  unzip -d demo ../../maven-projects/eclink-app.zip 
+    6  cd demo/
+    7  code .
+    8  ./run 
+    9  ./run  103
+   10  ./run  102
+   11  ./run  104
+   12  ./run  105
+   13  ./run  101
+   14  ./run  106
+   15  history > ../../../../cmd12-11-24morning.txt 

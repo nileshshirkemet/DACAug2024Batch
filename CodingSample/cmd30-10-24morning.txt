@@ -1,0 +1,55 @@
+  745  cd Samples/Java/Core/
+  746  ls
+  747  mkdir Generics
+  748  cd Generics/
+  749  mkdir TypeParamTest
+  750  cd TypeParamTest/
+  751  mkdir demo1
+  752  cd demo1/
+  753  code .
+  754  javac -d bin Program.java
+  755  java -cp bin/ Program 47
+  756  java -cp bin/ Program 74
+  757  javac -d bin Program.java
+  758  java -cp bin/ Program 47
+  759  java -cp bin/ Program 74
+  760  javac -d bin Program.java
+  761  java -cp bin/ Program 74
+  762  java -cp bin/ Program 47
+  763  javac -d bin Program.java
+  764  code .
+  765  javac -d bin Program.java
+  766  java -cp bin/ Program 47
+  767  java -cp bin/ Program 74
+  768  javac -d bin Program.java
+  769  java -cp bin/ Program 47
+  770  java -cp bin/ Program 74
+  771  javac -d bin Program.java
+  772  java -cp bin/ Program
+  773  javap java.lang.Comparable
+  774  cp ../../../Inheritance/SubclassTest/demo2/Interval.java .
+  775  javap java.lang.String
+  776  javap java.lang.Double
+  777  javac -d bin Program.java
+  778  java -cp bin/ Program
+  779  cd ..
+  780  mkdir demo2
+  781  cd demo2/
+  782  cp ../../../Inheritance/SubclassTest/demo2/run .
+  783  code .
+  784  cp ../demo1/Interval.java .
+  785  ./run 
+  786  cd ../..
+  787  mkdir IterationTest
+  788  cd IterationTest/
+  789  mkdir demo1
+  790  cd demo1/
+  791  cp ../../TypeParamTest/demo2/SimpleStack.java .
+  792  code .
+  793  cp ../../TypeParamTest/demo2/run .
+  794  ./run 
+  795  javap java.util.Iterator
+  796  ./run 
+  797  ll bin/
+  798  ./run 
+  799  history > ../../../../cmd30-10-24morning.txt 

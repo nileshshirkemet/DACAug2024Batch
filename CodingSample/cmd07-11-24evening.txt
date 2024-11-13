@@ -1,0 +1,39 @@
+    1  pwd
+    2  cd Samples/Java/Core/Concurrency/
+    3  ls
+    4  cd ThreadTest/
+    5  ls
+    6  mkdir demo2
+    7  cd demo2
+    8  code .
+    9  javac -d bin *.java
+   10  java -cp bin/ Program 
+   11  javac -d bin *.java
+   12  java -cp bin/ Program 
+   13  javac -d bin *.java
+   14  java -cp bin/ Program 
+   15  javac -d bin *.java
+   16  java -cp bin/ Program 
+   17  javap java.lang.Object
+   18  cd ..
+   19  mkdir AsyncParallelTest
+   20  cd AsyncParallelTest/
+   21  mkdir demo
+   22  cd demo/
+   23  code .
+   24  javac -d bin Program.java 
+   25  java -cp bin/ Program 5
+   26  java -cp bin/ Program 10
+   27  java -cp bin/ Program 20
+   28  java -cp bin/ Program 30
+   29  javac -d bin Program.java 
+   30  java -cp bin/ Program 10
+   31  cd ..
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd ..
+   36  ls
+   37  cd ..
+   38  ls
+   39  history >cmd07-11-24evening.txt 

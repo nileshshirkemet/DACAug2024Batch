@@ -1,0 +1,19 @@
+    1  clear
+    2  ls
+    3  cd Core/Functional/
+    4  ls
+    5  clear
+    6  cd MethodRefTest/demo/
+    7  rm bin/*
+    8  javac -d bin/ Program.java 
+    9  java -cp bin Program 200000 5
+   10  ls bin/
+   11  javac -d bin/ Program.java 
+   12  java -cp bin Program 200000 5
+   13  javac -d bin/ Program.java 
+   14  java -cp bin Program 200000 5
+   15  ls bin/
+   16  javap -p bin/Program.class 
+   17  cd ..
+   18  ls
+   19  history >cmd04-11-24evening.txt 

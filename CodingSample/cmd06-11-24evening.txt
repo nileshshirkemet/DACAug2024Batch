@@ -1,0 +1,44 @@
+    1  cd Java/Core/Runtime/
+    2  mkdir NativeCodeTest
+    3  cd NativeCodeTest/
+    4  mkdir demo1
+    5  cd demo1/
+    6  wget iitdac.met.edu/shared/java/Makefile
+    7  code .
+    8  javac -d bin *.java
+    9  java -cp bin/ Program
+   10  javac -d bin -h . *.java
+   11  make
+   12  ls bin/
+   13  java -cp bin/ Program
+   14  java -cp bin/ -Djava.library.path=bin/ Program
+   15  javac -d bin -h . *.java
+   16  java -cp bin/ -Djava.library.path=bin/ Program
+   17  java -cp bin/ -Djava.library.path=bin/ Program 8
+   18  javap java.lang.Object
+   19  javac -d bin -h . *.java
+   20  java -cp bin/ -Djava.library.path=bin/ Program 8
+   21  javac -d bin -h . *.java
+   22  java -cp bin/ -Djava.library.path=bin/ Program 8
+   23  make
+   24  cd ..
+   25  mkdir demo2
+   26  cd demo2
+   27  mkdir bin
+   28  cp ~/Samples/DotNet/Fundamentals/Runtime/PlatformInvokeTest/NativeLib/primes.h .
+   29  cp ~/Samples/DotNet/Fundamentals/Runtime/PlatformInvokeTest/NativeLib/libprimes.so bin/
+   30  ls bin/
+   31  ls
+   32  code .
+   33  wget iitdac.met.edu/shared/java/NativeLinking.java
+   34  javac -d bin/ *.java
+   35  java -cp bin/ --enable-native-access=ALL_UNNAMED Program 10 20
+   36  java -cp bin/ --enable-native-access=ALL-UNNAMED Program 10 20
+   37  java -cp bin/ --enable-native-access=ALL-UNNAMED Program 10 100
+   38  javac -d bin/ *.java
+   39  java -cp bin/ --enable-native-access=ALL-UNNAMED Program 10 100
+   40  javac -d bin/ *.java
+   41  java -cp bin/ --enable-native-access=ALL-UNNAMED Program 10 100
+   42  java -cp bin/ --enable-native-access=ALL-UNNAMED Program 10 100 5
+   43  java -cp bin/ --enable-native-access=ALL-UNNAMED Program 200 300 10
+   44  history > ../../../../cmd06-11-24evening.txt 

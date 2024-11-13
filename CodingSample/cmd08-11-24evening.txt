@@ -1,0 +1,29 @@
+    1  cd Java/Advanced/Networking/TCPServerTest/demo1/
+    2  code .
+    3  netstat -pnlt
+    4  ./run 
+    5  nc localhost 4000
+    6  cd ..
+    7  cp -r demo1/ demo2
+    8  cd demo2/
+    9  wget iitdac.met.edu/shared/java/EviTek.store.json -O EviTek.store
+   10  code .
+   11  nc localhost 4000
+   12  cd ../..
+   13  ls
+   14  mkdir TCPClientTest
+   15  cd TCPClientTest/
+   16  ls
+   17  unzip -d demo1 ../../maven-projects/simple-app.zip 
+   18  demo1
+   19  cd demo1
+   20  code .
+   21  vi ../../TCPServerTest/demo2/pom.xml 
+   22  ./run ssd 4 localhost
+   23  ./run mouse 20 localhost
+   24  ./run mouse 200 localhost
+   25  ./run printer 2 localhost
+   26  ls
+   27  cd ..
+   28  ls
+   29  history >cmd08-11-24evening.txt 

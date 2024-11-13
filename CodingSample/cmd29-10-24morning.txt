@@ -1,0 +1,96 @@
+    1  clear
+    2  cd Core/
+    3  ls
+    4  cd Inheritance/
+    5  ls
+    6  mkdir InterfaceTest
+    7  cd InterfaceTest/
+    8  mkdir bank
+    9  cd bank/
+   10  code .
+   11  ls
+   12  code .
+   13  rm -r banking/
+   14  cd  ..
+   15  code bank
+   16  cd bank/
+   17  code .
+   18  javac -d bin banking/*.java
+   19  cd b
+   20  cd bin/
+   21  ls
+   22  ls banking/
+   23  jar -c -f bank.jar banking/
+   24  ls
+   25  jar -t -f bank.jar 
+   26  cd ..
+   27  ls
+   28  rm -r bin/
+   29  javac -d bin banking/*.java
+   30  ls banking/
+   31  cd bin/
+   32  ls
+   33  ls banking/
+   34  jar -c -f bank.jar banking/
+   35  ls
+   36  cd ../..
+   37  ls
+   38  mkdir demo1
+   39  cd demo1/
+   40  mkdir lib
+   41  cp ../bank/bin/bank.jar lib/
+   42  code .
+   43  cd ../bank/
+   44  code .
+   45  javac -d bin banking/*.java
+   46  cd bin/
+   47  jar -c -f bank.jar banking/
+   48  cd ../../demo1/
+   49  ls
+   50  cp ../bank/bin/bank.jar lib/
+   51  code .
+   52  cd ../bank/
+   53  code .
+   54  javac -d bin banking/*.java
+   55  cd bin
+   56  jar -c -f bank.jar banking/
+   57  cd ../../demo1/
+   58  cp ../bank/bin/bank.jar lib/
+   59  code .
+   60  javac -d bin Program.java 
+   61  javac -d bin -cp lib/bank.jar Program.java 
+   62  java -cp bin/:lib/bank.jar Program
+   63  cd ../bank/
+   64  code .
+   65  javac -d bin banking/*.java
+   66  jar -c -f bank.jar banking/
+   67  cd ../../de
+   68  cd ../demo1/
+   69  cp ../bank/bin/bank.jar lib/
+   70  java -cp bin/:lib/bank.jar Program
+   71  cd ../bank/
+   72  ls
+   73  rm bank.jar 
+   74  cd bin/
+   75  jar -c -f bank.jar banking/
+   76  cd ../../demo1/
+   77  cp ../bank/bin/bank.jar lib/
+   78  java -cp bin/:lib/bank.jar Program
+   79  javac -d bin -cp lib/bank.jar Program.java 
+   80  java -cp bin/:lib/bank.jar Program
+   81  java -cp bin/ Program
+   82  java -cp bin/:lib/bank.jar Program
+   83  vi run
+   84  chmod u+x run 
+   85  ./run 
+   86  vi run
+   87  code .
+   88  ./run 
+   89  ./run 2000
+   90  ./run 12000
+   91  ./run 5OOO
+   92  code .
+   93  LS
+   94  ls
+   95  cd ..
+   96  history >cmd29-10-24morning.txt
