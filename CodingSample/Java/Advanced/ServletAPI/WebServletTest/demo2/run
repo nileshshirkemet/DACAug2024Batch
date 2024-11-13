@@ -1,0 +1,6 @@
+if mvn -q -f server clean package; then
+	if	mvn -q clean package; then
+		java $* -jar server/target/webhost-1.0.0.jar
+	fi
+fi
+

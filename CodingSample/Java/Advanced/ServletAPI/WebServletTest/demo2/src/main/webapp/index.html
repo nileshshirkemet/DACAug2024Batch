@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>DemoApp</title>
+        <script defer src="alpine.js"></script>
+    </head>
+    <body x-data="siteDataSource()" x-init="readVisitors()">
+        <h1>Welcome Visitor</h1>
+        <hr/>
+        <h2>Our Visitors</h2>
+        <table border="1">
+            <tr>
+                <th>Visitor Name</th>
+                <th>Visit Count</th>
+                <th>Last Visit</th>
+                <th>Star Rating</th>
+            </tr>
+            <template x-for="visitor in visitors">
+                <tr>
+                    <td x-text="visitor.name"></td>
+                    <td x-text="visitor.visits"></td>
+                    <td x-text="visitor.recent"></td>
+                    <td x-html="visitor.stars.replaceAll('*', '&#9734;')"></td>
+                </tr>
+            </template>
+        </table>
+        <br/>
+        <hr/>
+        <h2>Register Your Visit</h2>
+        <p>
+            <b>Your Name:</b>
+            <input type="text" x-model="traveler.id"/>
+        </p>
+        <p>
+            <b>Experience:</b>
+            <select x-model="traveler.rating">
+                <option value="5">Fantastic</option>
+                <option value="4">Fine</option>
+                <option value="3">Average</option>
+                <option value="2">Poor</option>
+                <option value="1">Pathetic</option>
+            </select>
+        </p>
+        <p>
+            <button x-on:click="writeVisitor()">Submit</button>
+        </p>
+        <hr/>
+        <script>
+            function siteDataSource() {
+                const backendUri = "/api/site";
+                return {
+                    visitors: [],
+                    traveler: {id: "", rating: 0},
+                    async readVisitors() {
+                        let response = await fetch(backendUri);
+                        this.visitors = await response.json();
+                    },
+                    async writeVisitor() {
+                        let request = {
+                            method: "post",
+                            headers: {"Content-Type": "application/json"},
+                            body: JSON.stringify(this.traveler)
+                        };
+                        let response = await fetch(backendUri, request);
+                        if(response.ok)
+                            await this.readVisitors();
+                    }
+                };
+            }
+        </script>
+    </body>
+</html>

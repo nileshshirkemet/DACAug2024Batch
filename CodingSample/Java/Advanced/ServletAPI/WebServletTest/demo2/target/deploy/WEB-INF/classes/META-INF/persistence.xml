@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_2.xsd"
+             version="3.2">
+   <persistence-unit name="app.data" transaction-type="RESOURCE_LOCAL">   
+     <properties>   
+       <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://dac-faculty.local/site"/>
+       <property name="jakarta.persistence.jdbc.user" value="root"/>
+       <property name="jakarta.persistence.jdbc.password" value="root"/>
+       <property name="eclipselink.logging.level" value="OFF" />   
+     </properties>
+     <exclude-unlisted-classes>true</exclude-unlisted-classes>
+     <class>app.tourism.data.TravelerEntity</class>
+     <class>app.tourism.data.TripEntity</class>
+   </persistence-unit>
+</persistence>
+

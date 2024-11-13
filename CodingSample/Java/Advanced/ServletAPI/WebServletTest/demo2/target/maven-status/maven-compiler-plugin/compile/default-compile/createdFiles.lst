@@ -1,0 +1,6 @@
+app/tourism/data/TripEntity.class
+app/tourism/data/TravelerEntity.class
+app/components/SiteManagerServlet.class
+app/tourism/models/Visitor.class
+app/components/SiteManagerServlet$VisitorInput.class
+app/tourism/models/SiteModel.class
