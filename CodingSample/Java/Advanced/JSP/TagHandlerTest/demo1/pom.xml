@@ -1,0 +1,35 @@
+<project>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>taghandlertest</groupId>
+    <artifactId>demo1</artifactId>
+    <version>1.0.0</version>
+    <packaging>war</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>22</maven.compiler.source>
+        <maven.compiler.target>22</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.0.0</version>
+			<scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.servlet.jsp</groupId>
+            <artifactId>jakarta.servlet.jsp-api</artifactId>
+            <version>3.1.1</version>
+			<scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+		<finalName>deploy</finalName>
+	</build>
+
+</project>
+
