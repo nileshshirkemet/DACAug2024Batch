@@ -1,0 +1,28 @@
+    1  pwd
+    2  cd Samples/Java/Advanced/ServletAPI/
+    3  ls
+    4  mkdir WebFilterTest
+    5  cd WebFilterTest/
+    6  cp -r ../WebServletTest/demo1 demo
+    7  cd demo/
+    8  code .
+    9  ./run 
+   10  touch enable.html.rendering
+   11  ./run 
+   12  ls
+   13  cd ..
+   14  history >cmd13-11-24evening.txt
+   15  clear
+   16  cd Advanced/
+   17  ls
+   18  mkdir JSP
+   19  cd JSP
+   20  mkdir JavaBeanTest
+   21  cd JavaBeanTest/
+   22  unzip -d demo ../../maven-projects/tomcat-webapp.zip 
+   23  cd demo/
+   24  code .
+   25  ./run
+   26  cd ..
+   27  ls
+   28  history >cmd14-11-24morning.txt

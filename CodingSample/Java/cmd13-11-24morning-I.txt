@@ -1,0 +1,23 @@
+    1  pwd
+    2  cd Samples/Java/Advanced/ServletAPI/WebServletTest/demo1/
+    3  ~/apache-tomcat-10.1.18/bin/startup.sh 
+    4  ls target/
+    5  cp target/deploy.war ~/apache-tomcat-10.1.18/webapps/demoapp.war
+    6  rm -r ~/apache-tomcat-10.1.18/webapps/demoapp*
+    7  ~/apache-tomcat-10.1.18/bin/shutdown.sh 
+    8  ~/glassfish7/bin/asadmin start-domain
+    9  ./run 
+   10  cd ..
+   11  unzip -d demo2 ../../maven-projects/jetty-webapp.zip 
+   12  cd demo2/
+   13  cp -r ../../../JPA/EntityTest/demo/src/main/resources/ src/main/
+   14  cp -r ../../../JPA/EntityTest/demo/src/main/java/app/tourism/ src/main/java/app/
+   15  vi ../../../JPA/EntityTest/demo/pom.xml 
+   16  code .
+   17  mysql -h dac-faculty.local -u root -proot -D site
+   18  ./run 
+   19  mysql -h dac-faculty.local -u root -proot -D site
+   20  ./run 
+   21  cp -r ~/Samples/DotNet/Enterprise/AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/* src/main/webapp/
+   22  ./run 
+   23  history > ../../../../cmd13-11-24morning-I.txt 
