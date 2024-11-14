@@ -1,0 +1,15 @@
+    1  cd Advanced/JSP/
+    2  ls
+    3  mkdir TagHandlerTest
+    4  cd TagHandlerTest/
+    5  unzip -d demo1 ../../maven-projects/tomcat-webapp.zip 
+    6  cd demo1/
+    7  code .
+    8  ./run 
+    9  d ..
+   10  cd ..
+   11  ls
+   12  cd JSP
+   13  ls
+   14  cd ..
+   15  history >cmd14-11-24evening.txt 
