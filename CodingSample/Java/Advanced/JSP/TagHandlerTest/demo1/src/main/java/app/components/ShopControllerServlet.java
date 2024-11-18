@@ -19,7 +19,16 @@ public class ShopControllerServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
- 
+        String customerId = request.getParameter("customerId");
+        String password = request.getParameter("password");
+        var model = new LoginModelBean();
+        if(model.authenticate(customerId, password)){
+            request.setAttribute("login", model);
+            request.getRequestDispatcher("/detail-view.jsp").forward(request, response);
+        }else{
+            request.setAttribute("problem", "Invalid Customer ID or Password");
+            request.getRequestDispatcher("/index-view.jsp").forward(request, response);
+        }
     }
     
     

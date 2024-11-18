@@ -15,18 +15,21 @@
 		</attribute>
   	</tag>
 
-	<!--
 	<tag>
-		<name>tagName</name>
-		<tag-class>web.app.TagClass</tag-class>
-		<body-content>empty|scriptless</body-content>
+		<name>fetchNextOrder</name>
+		<tag-class>app.components.InvoiceModelTag</tag-class>
+		<body-content>scriptless</body-content>
 		<attribute>
-			<name>attrib</name>
-			<required>true|false</required>
-			<rtexprvalue>true|false</rtexprvalue>
+			<name>customerId</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>orderVar</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
 		</attribute>
   	</tag>
-	-->
 
 </taglib>
 
