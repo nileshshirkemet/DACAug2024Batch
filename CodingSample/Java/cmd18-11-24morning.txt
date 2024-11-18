@@ -1,0 +1,36 @@
+    1  clear
+    2  cd Advanced/
+    3  ls
+    4  mkdir Microservices
+    5  cd Microservices/
+    6  mkdir GRPCTest
+    7  cd GRPCTest/
+    8  unzip -d contract ../../maven-projects/grpc-protolib.zip 
+    9  cp ~/Samples/DotNet/Enterprise/Microservices/GRPCTest/ContractLib/order_manager.proto contract/src/main/proto/
+   10  cd contract/
+   11  ls
+   12  vi src/main/proto/order_manager.proto 
+   13  vi pom.xml 
+   14  mvn install
+   15  cp -r ../../../JPA/AnnotationsTest/demo/ ../server
+   16  cd ../server/
+   17  ls
+   18  code .
+   19  vi ../contract/src/main/proto/order_manager.proto 
+   20  vi ../../../JDBC/ExecSQLTest/demo2/src/main/java/app/Program.java 
+   21  netstat -pnlt
+   22  cd ..
+   23  cp -r ~/Samples/DotNet/Enterprise/Microservices/GRPCTest/DemoApp/ demo
+   24  cd demo/
+   25  ls
+   26  python Program.py CU101
+   27  python Program.py CU102
+   28  vi Program.py 
+   29  python Program.py CU101
+   30  python Program.py CU101 104 12
+   31  python Program.py CU101
+   32  python Program.py CU101 108 9
+   33  python Program.py CU101 105 9
+   34  python Program.py CU101
+   35  cd ..
+   36  history >cmd18-11-24morning.txt
