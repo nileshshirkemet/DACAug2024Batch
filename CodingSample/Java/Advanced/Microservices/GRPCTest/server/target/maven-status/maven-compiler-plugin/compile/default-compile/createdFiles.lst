@@ -1,0 +1,4 @@
+app/shopping/data/OrderEntity.class
+app/shopping/services/OrderManagerService.class
+app/shopping/data/CounterEntity.class
+app/Program.class
