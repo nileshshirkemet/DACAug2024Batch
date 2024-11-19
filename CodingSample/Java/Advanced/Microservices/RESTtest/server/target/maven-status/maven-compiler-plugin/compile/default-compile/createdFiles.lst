@@ -1,0 +1,5 @@
+app/services/OrderManagerClient.class
+app/services/SalesAgentService.class
+app/services/OrderResource.class
+app/services/CrossOriginSupport.class
+app/Program.class

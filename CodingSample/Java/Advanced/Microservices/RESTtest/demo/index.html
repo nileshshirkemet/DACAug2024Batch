@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>DemoApp</title>
+        <link rel="stylesheet" href="index.css"/>
+        <script src="index.js"></script>
+        <script defer src="alpine.js"></script>
+    </head>
+    <body x-data="new SalesDataSource()">
+        <h1>Welcome Sales Agent</h1>
+        <hr/>
+        <b>Customer ID:</b>
+        <input type="text" x-model="orderEntry.customerId"/>
+        <button x-on:click="readOrders()">Lookup</button>
+        <hr/>
+        <p>
+            <b>Product No</b><br/>
+            <input type="number" x-model="orderEntry.productNo"/>
+        </p>
+        <p>
+            <b>Quantity</b><br/>
+            <input type="number" x-model="orderEntry.quantity"/>
+        </p>
+        <p>
+            <button x-on:click="createOrder()">Order</button>
+        </p>
+        <hr/>
+        <h4 x-text="statusReport"></h4>
+        <table border="1" x-show="orderList.length > 0">
+            <tr>
+                <th>Product No</th>
+                <th>Quantity</th>
+                <th>Order Date</th>
+            </tr>
+            <template x-for="entry in orderList">
+                <tr>
+                    <td x-text="entry.productNo"></td>
+                    <td x-text="entry.quantity"></td>
+                    <td x-text="entry.orderDate"></td>
+                </tr>
+            </template>
+        </table>
+    </body>
+</html>
