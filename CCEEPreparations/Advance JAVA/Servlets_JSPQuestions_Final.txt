@@ -1,0 +1,557 @@
+Here are the collections of multiple-choice questions on Java Servlet includes the MCQ questions on the fundamentals of Java servlet and servlet life cycle. It also includes objective types of questions on the interfaces included in the servlet API, section tracking, GET and POST method, main functions of HttpServletRequest, and HttpServletResponse interface, the difference between session and cookie, and the servlet chaining.
+Read Also: Solved MCQ of JDBC and JSP set-1
+
+1. Which of the following are the principal stages in the life cycle of Java Servlet.
+i) Server Initialization
+ii) Servlet Execution
+iii) Servlet Destruction
+iv) Servlet Stop
+A) i, ii, and iii only
+B) i, iii, and iv only
+C) ii, iii, and iv only
+D) All i, ii, iii, and iv only
+
+
+2. State whether the following statements about the Java servlet life cycle are True or False.
+i) init() and destroy() method will be called only once during the lifetime of the servlet.
+ii) Once the servlet is initialized any request that the servlet container receives will be forwarded to the servlet’s execute() method.
+A) i-True, ii-True
+B) i-True, ii-False
+C) i-False, ii-True
+D) i-False, ii-False
+
+
+3. Which of the following are the advantages of Java Servlet over the other common server extensions.
+i) Java servlets are faster than other server extensions like CGI scripts.
+ii) Java servlets use a standard API that is supported by many browsers.
+iii) Java servlets are portable between server and operating system.
+A) i and ii only
+B) ii and iii only
+C) i and iii only
+D) All i, ii and iii
+
+4. Which of the following methods are provided to enable the servlet to process the client’s request.
+i) getCookies()
+ii) getRequest()
+iii) getSession()
+iv) getHeader()
+A) i, ii, and iii only
+B) i, iii, and iv only
+C) ii, iii, and iv only
+D) All i, ii, iii, and iv only
+
+
+5. State whether the following statements on the methods of HTTP servlet request are True or False.
+i) For the getHeader method, the match between the given name and the request header is case insensitive.
+ii) If there is no query string, getQueryString method returns null.
+A) i-True, ii-True
+B) i-True, ii-False
+C) i-False, ii-True
+D) i-False, ii-False
+
+6. … are the methods provided by HTTP servlet response to formulate the response to the client.
+i) sendRedirect
+ii) getWriter
+iii) sendError
+A) i and ii only
+B) ii and iii only
+C) i and iii only
+D) All i, ii and iii
+
+7. … method obtains a byte-based output stream that enables binary data to be sent to the client.
+A) sendRedirect
+B) getOutput()
+C) getOutputStream()
+D) getWirter
+
+
+8. … method obtains a character-based output stream that enables text data to be sent to the client.
+A) sendRedirect
+B) getOutput()
+C) getOutputStream()
+D) getWirter
+
+Top 20 MCQ Questions On Exception H...
+The correct answer is.
+Pause
+
+Unmute
+Remaining Time -4:40
+
+
+Fullscreen
+9. State whether the following statements about the methods provided by HTTP servlet response are True or False.
+i) The addCookie method must be called before the response is committed so that the appropriate headers can be set.
+ii) Further output should be made by the servlet after calling the sendError method.
+A) i-True, ii-True
+B) i-True, ii-False
+C) i-False, ii-True
+D) i-False, ii-False
+
+
+10. Which of the following are the methods of cookies that are used for section tracking.
+i) getMaxAge()
+ii) getValue()
+iii) getDate()
+A) i and ii only
+B) ii and iii only
+C) i and iii only
+D) All i, ii and iii
+
+11. State whether the following statements about the methods of cookies that are used for section tracking are True or False.
+i) A zero value on the Cookie.SetMaxAge(int expiry) tells the browser to delete the cookie immediately.
+ii) If no maximum age was specified the getMaxAge() method returns zero.
+A) i-True, ii-True
+B) i-True, ii-False
+
+
+C) i-False, ii-True
+D) i-False, ii-False
+
+12. State whether the following statements about the interfaces included in the servlet API are True or False.
+i) The HttpServletRequest provides access to an input stream and so allows the servlet to read data from the client.
+ii) The HttpServletResponse provides access to an output stream and so allows the servlet to send data to the client.
+A) i-True, ii-True
+B) i-True, ii-False
+C) i-False, ii-True
+D) i-False, ii-False
+
+13. … are the main functions of the HttpServletRequest interface.
+i) The interface HttpServletRequest encapsulates the functionality for a request object that is passed to an HTTP servlet.
+ii) It allows the servlet to send data to the client.
+iii) It contains the request from the client.
+A) i and ii only
+B) ii and iii only
+C) i and iii only
+D) All i, ii and iii
+
+
+14. State whether the following statements about the GetQueryString method are True or False.
+i) GetQueryString method returns a query string present in the request URL if any.
+ii) If there is no query string, getQueryString() method returns null.
+A) i-True, ii-True
+B) i-True, ii-False
+C) i-False, ii-True
+D) i-False, ii-False
+
+15. Which of the following are the purposes of section tracking.
+i) Knowing the client preferences.
+ii) Distinguishing between the different clients.
+iii) Customizing the website as per the user requirement.
+A) i and ii only
+B) ii and iii only
+C) i and iii only
+D) All i, ii and iii
+
+16. State whether the following statements about the GET method are True.
+i) In the GET method entire form submission can be encapsulated in one URL.
+ii) The query length is limited to 256 characters.
+iii) The data is submitted as a part of the URL.
+A) i and ii only
+
+
+B) ii and iii only
+C) i and iii only
+D) All i, ii and iii
+
+17. State whether the following statements about the POST method are True or False.
+i) In the POST method, data is submitted inside the body of the HTTP request.
+ii) Here the data is visible on the URL and less secure.
+A) i-True, ii-True
+B) i-True, ii-False
+C) i-False, ii-True
+D) i-False, ii-False
+
+18. Which of the following is the difference between a session and a cookie.
+i) Section is stored in the server but a cookie is stored in the client.
+ii) There is a limit on the amount of data that can be stored on the session but it is not limited to cookies.
+iii) Section can store objects and cookies can store only strings.
+A) i and ii only
+B) ii and iii only
+C) i and iii only
+D) All i, ii and iii
+
+
+19. State whether the following statements about the servlet init parameters are True.
+i) Servlet init parameters are for a single servlet only.
+ii) It is declared inside the <servlet> tag inside the deployment descriptor.
+iii) Servlet init parameters can also be accessed outside it.
+A) i and ii only
+B) ii and iii only
+C) i and iii only
+D) All i, ii and iii
+
+20. State whether the following statements about the servlet chaining are True or False.
+i) In servlet chaining two or more servlets can cooperate in servicing a single request.
+ii) In servlet chaining, one servlet’s output is the input of the next servlet.
+iii) We can achieve servlet chaining with the help of RequestDispatcher.
+A) i-True, ii-True, iii-False
+B) i-True, ii-False, iii-True
+C) i-False, ii-True, iii-True
+D) i-True, ii-True, iii-True
+
+Answers:
+
+A) i, ii, and iii only
+B) i-True, ii-False
+D) All i, ii and iii
+B) i, iii, and iv only
+A) i-True, ii-True
+D) All i, ii and iii
+C) getOutputStream()
+D) getWirter
+B) i-True, ii-False
+A) i and ii only
+B) i-True, ii-False
+A) i-True, ii-True
+C) i and iii only
+A) i-True, ii-True
+D) All i, ii and iii
+C) i and iii only
+B) i-True, ii-False
+C) i and iii only
+A) i and ii only
+D) i-True, ii-True, iii-True
+
+
+
+McqMate.com
+Advanced JAVA MCQs [set-1]
+Chapter: Servlet and Overview
+1. How is the dynamic interception of requests and responses to transform the
+information done?
+A. servlet container
+B. servlet config
+C. servlet context
+D. servlet filter
+Answer: D
+2. Which type of ServletEngine is a server that includes built-in support for
+servlets?
+A. Add-on ServletEngin
+B. Embedded ServletEngine
+C. Standalone ServletEngine
+D. None of the above
+Answer: C
+3. What type of servlets use these methods doGet(), doPost(),doHead, doDelete(),
+doTrace()?
+A. Genereic Servlets
+B. HttpServlets
+C. All of the above
+D. None of the above
+Answer: B
+4. Which cookie it is valid for single session only and it is removed each time when
+the user closes the browser?
+A. Persistent cookie
+B. Non-persistent cookie
+C. All the above
+D. None of the above
+Answer: B
+5. Sessions is a part of the SessionTracking and it is for maintaining the client state
+at server side.
+A. True
+B. False
+C. none
+D. all
+Answer: A
+6. When destroy() method of a filter is called?
+A. The destroy() method is called only once at the end of the life cycle of a filter
+B. The destroy() method is called after the filter has executed doFilter method
+C. The destroy() method is called only once at the begining of the life cycle of a filter
+D. The destroyer() method is called after the filter has executed
+Answer: A
+7. Web server is used for loading the init() method of servlet.
+A. True
+B. False
+C. none
+D. all
+Answer: A
+8. Servlets handle multiple simultaneous requests by using threads.
+A. True
+B. False
+C. none
+D. all
+Answer: A
+9. Which method is used to send the same request and response objects to another
+servlet in RequestDispacher ?
+A. forward()
+B. sendRedirect()
+C. Both A & B
+D. None of the above
+Answer: A
+Download more sets at McqMate.com
+10. The sendRedirect() method of HttpServletResponse interface can be used to
+redirect response to another resource, it may be servlet, jsp or html file
+A. True
+B. False
+C. none
+D. all
+Answer: A
+11. Which packages represent interfaces and classes for servlet API?
+A. javax.servlet
+B. javax.servlet.http
+C. Both A & B
+D. None of the above
+Answer: C
+12. Which class can handle any type of request so that it is protocol-independent?
+A. GenericServlet
+B. HttpServle
+C. Both A & B
+D. None of the above
+Answer: A
+13. Which HTTP Request method is non-idempotent?
+A. GET
+B. POST
+C. Both A & B
+D. None of the above
+Answer: C
+14. Which object is created by the web container at time of deploying the project?
+A. ServletConfig
+B. ServletContext
+C. Both A & B
+D. None of the above
+Answer: B
+15. What is the lifecycle of a servlet?
+Download more sets at McqMate.com
+A. Servlet class is loaded
+B. Servlet instance is created
+C. init,Service,destroy method is invoked
+D. All mentioned above
+Answer: D
+16. Which method in session tracking is used in a bit of information that is sent by
+a web server to a browser and which can later be read back from that browser?
+A. HttpSession
+B. URL rewriting
+C. Cookies
+D. Hidden form fields
+Answer: C
+17. Which are the examples of Application Server?
+A. Apache
+B. Tomcat
+C. JBoss
+D. Weblogic
+Answer: C
+18. How many techniques are used in Session Tracking?
+A. 4
+B. 3
+C. 2
+D. 5
+Answer: A
+19. In HTTP Request method Get request is secured because data is exposed in
+URL bar
+A. True
+B. False
+C. none
+D. all
+Answer: B
+20. In the following statements identify the disadvantages of CGI?
+Download more sets at McqMate.com
+A. If number of clients increases, it takes more time for sending response
+B. For each request, it starts a process and Web server is limited to start processes
+C. It uses platform dependent language e.g. C, C++, perl
+D. All mentioned above
+Answer: D
+21. Servlet technology is used to create web application
+A. True
+B. False
+C. none
+D. all
+Answer: A
+22. Which method is used to specify before any lines that uses the PintWriter?
+A. setPageType()
+B. setContextType()
+C. setContentType()
+D. setResponseType()
+Answer: C
+23. What are functions of Servlet container?
+A. Lifecycle management
+B. Communication Support
+C. Multithreading Support
+D. All of the above
+Answer: D
+24. Which object of HttpSession can be used to view and manipulate information
+about a session?
+A. session identifier
+B. creation time
+C. last accessed time
+D. All mentioned above
+Answer: D
+25. Which methods are used to bind the objects on HttpSession instance and get
+the objects?
+A. setAttribute
+Download more sets at McqMate.com
+B. getAttribute
+C. Both A & B
+D. None of the above
+Answer: C
+Download more sets at McqMate.com
+
+McqMate.com
+Advanced JAVA MCQs [set-1]
+Chapter: Servlet and Overview
+1. How is the dynamic interception of requests and responses to transform the
+information done?
+A. servlet container
+B. servlet config
+C. servlet context
+D. servlet filter
+Answer: D
+2. Which type of ServletEngine is a server that includes built-in support for
+servlets?
+A. Add-on ServletEngin
+B. Embedded ServletEngine
+C. Standalone ServletEngine
+D. None of the above
+Answer: C
+3. What type of servlets use these methods doGet(), doPost(),doHead, doDelete(),
+doTrace()?
+A. Genereic Servlets
+B. HttpServlets
+C. All of the above
+D. None of the above
+Answer: B
+4. Which cookie it is valid for single session only and it is removed each time when
+the user closes the browser?
+A. Persistent cookie
+B. Non-persistent cookie
+C. All the above
+D. None of the above
+Answer: B
+5. Sessions is a part of the SessionTracking and it is for maintaining the client state
+at server side.
+A. True
+B. False
+C. none
+D. all
+Answer: A
+6. When destroy() method of a filter is called?
+A. The destroy() method is called only once at the end of the life cycle of a filter
+B. The destroy() method is called after the filter has executed doFilter method
+C. The destroy() method is called only once at the begining of the life cycle of a filter
+D. The destroyer() method is called after the filter has executed
+Answer: A
+7. Web server is used for loading the init() method of servlet.
+A. True
+B. False
+C. none
+D. all
+Answer: A
+8. Servlets handle multiple simultaneous requests by using threads.
+A. True
+B. False
+C. none
+D. all
+Answer: A
+9. Which method is used to send the same request and response objects to another
+servlet in RequestDispacher ?
+A. forward()
+B. sendRedirect()
+C. Both A & B
+D. None of the above
+Answer: A
+Download more sets at McqMate.com
+10. The sendRedirect() method of HttpServletResponse interface can be used to
+redirect response to another resource, it may be servlet, jsp or html file
+A. True
+B. False
+C. none
+D. all
+Answer: A
+11. Which packages represent interfaces and classes for servlet API?
+A. javax.servlet
+B. javax.servlet.http
+C. Both A & B
+D. None of the above
+Answer: C
+12. Which class can handle any type of request so that it is protocol-independent?
+A. GenericServlet
+B. HttpServle
+C. Both A & B
+D. None of the above
+Answer: A
+13. Which HTTP Request method is non-idempotent?
+A. GET
+B. POST
+C. Both A & B
+D. None of the above
+Answer: C
+14. Which object is created by the web container at time of deploying the project?
+A. ServletConfig
+B. ServletContext
+C. Both A & B
+D. None of the above
+Answer: B
+15. What is the lifecycle of a servlet?
+Download more sets at McqMate.com
+A. Servlet class is loaded
+B. Servlet instance is created
+C. init,Service,destroy method is invoked
+D. All mentioned above
+Answer: D
+16. Which method in session tracking is used in a bit of information that is sent by
+a web server to a browser and which can later be read back from that browser?
+A. HttpSession
+B. URL rewriting
+C. Cookies
+D. Hidden form fields
+Answer: C
+17. Which are the examples of Application Server?
+A. Apache
+B. Tomcat
+C. JBoss
+D. Weblogic
+Answer: C
+18. How many techniques are used in Session Tracking?
+A. 4
+B. 3
+C. 2
+D. 5
+Answer: A
+19. In HTTP Request method Get request is secured because data is exposed in
+URL bar
+A. True
+B. False
+C. none
+D. all
+Answer: B
+20. In the following statements identify the disadvantages of CGI?
+Download more sets at McqMate.com
+A. If number of clients increases, it takes more time for sending response
+B. For each request, it starts a process and Web server is limited to start processes
+C. It uses platform dependent language e.g. C, C++, perl
+D. All mentioned above
+Answer: D
+21. Servlet technology is used to create web application
+A. True
+B. False
+C. none
+D. all
+Answer: A
+22. Which method is used to specify before any lines that uses the PintWriter?
+A. setPageType()
+B. setContextType()
+C. setContentType()
+D. setResponseType()
+Answer: C
+23. What are functions of Servlet container?
+A. Lifecycle management
+B. Communication Support
+C. Multithreading Support
+D. All of the above
+Answer: D
+24. Which object of HttpSession can be used to view and manipulate information
+about a session?
+A. session identifier
+B. creation time
+C. last accessed time
+D. All mentioned above
+Answer: D
+25. Which methods are used to bind the objects on HttpSession instance and get
+the objects?
+A. setAttribute
+Download more sets at McqMate.com
+B. getAttribute
+C. Both A & B
+D. None of the above
+Answer: C
+Download more sets at McqMate.com
+
